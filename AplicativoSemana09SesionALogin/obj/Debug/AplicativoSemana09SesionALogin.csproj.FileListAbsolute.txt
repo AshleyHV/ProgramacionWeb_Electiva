@@ -1,7 +1,0 @@
-D:\Users\Jose Manuel\Documents\UAO 2021-03\PROGRAMACION EN AMBIENTE WEB\AplicativoSemana09SesionALogin\bin\AplicativoSemana09SesionALogin.dll.config
-D:\Users\Jose Manuel\Documents\UAO 2021-03\PROGRAMACION EN AMBIENTE WEB\AplicativoSemana09SesionALogin\bin\AplicativoSemana09SesionALogin.dll
-D:\Users\Jose Manuel\Documents\UAO 2021-03\PROGRAMACION EN AMBIENTE WEB\AplicativoSemana09SesionALogin\bin\AplicativoSemana09SesionALogin.pdb
-D:\Users\Jose Manuel\Documents\UAO 2021-03\PROGRAMACION EN AMBIENTE WEB\AplicativoSemana09SesionALogin\obj\Debug\AplicativoSemana09SesionALogin.csproj.AssemblyReference.cache
-D:\Users\Jose Manuel\Documents\UAO 2021-03\PROGRAMACION EN AMBIENTE WEB\AplicativoSemana09SesionALogin\obj\Debug\AplicativoSemana09SesionALogin.csproj.CoreCompileInputs.cache
-D:\Users\Jose Manuel\Documents\UAO 2021-03\PROGRAMACION EN AMBIENTE WEB\AplicativoSemana09SesionALogin\obj\Debug\AplicativoSemana09SesionALogin.dll
-D:\Users\Jose Manuel\Documents\UAO 2021-03\PROGRAMACION EN AMBIENTE WEB\AplicativoSemana09SesionALogin\obj\Debug\AplicativoSemana09SesionALogin.pdb
