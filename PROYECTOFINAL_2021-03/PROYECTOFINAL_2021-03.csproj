@@ -58,6 +58,33 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BOOTSTRAP\css\bootstrap-grid.css.map" />
+    <Content Include="BOOTSTRAP\css\bootstrap-grid.min.css.map" />
+    <Content Include="BOOTSTRAP\css\bootstrap-reboot.css.map" />
+    <Content Include="BOOTSTRAP\css\bootstrap-reboot.min.css.map" />
+    <Content Include="BOOTSTRAP\css\bootstrap.css.map" />
+    <Content Include="BOOTSTRAP\css\bootstrap.min.css.map" />
+    <Content Include="BOOTSTRAP\jquery-3.6.0.min.js" />
+    <Content Include="BOOTSTRAP\js\bootstrap.bundle.js.map" />
+    <Content Include="BOOTSTRAP\js\bootstrap.bundle.min.js.map" />
+    <Content Include="BOOTSTRAP\js\bootstrap.js.map" />
+    <Content Include="BOOTSTRAP\js\bootstrap.min.js.map" />
+    <Content Include="IMAGENES\CampusLabs.jpg" />
+    <Content Include="IMAGENES\Login_Abajo.png" />
+    <Content Include="IMAGENES\Login_Arriba.png" />
+    <Content Include="IMAGENES\LogoPortal.png" />
+    <Content Include="IMAGENES\LogoPortalLineaRoja.jpg" />
+    <Content Include="IMAGENES\logo_uao.png" />
+    <Content Include="IMAGENES\Recupera Contraseña.jpg" />
+    <Content Include="IMAGENES\Registrarse.png" />
+    <Content Include="IMAGENES\UAO BARRA SUPERIOR.png" />
+    <Content Include="IMAGENES\UAO LOGO.png" />
+    <Content Include="LOGIN\LoginM.aspx" />
+    <Content Include="LOGIN\OlvidoContraseñaM.aspx" />
+    <Content Include="LOGIN\RegistrarseM.aspx" />
+    <Content Include="PAGINA MAESTRA\Estudiante.Master" />
+    <Content Include="PAGINA MAESTRA\Teacher.Master" />
+    <Content Include="PAGINA MAESTRA\Login.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -66,10 +93,75 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BOOTSTRAP\css\bootstrap-grid.css" />
+    <Content Include="BOOTSTRAP\css\bootstrap-grid.min.css" />
+    <Content Include="BOOTSTRAP\css\bootstrap-reboot.css" />
+    <Content Include="BOOTSTRAP\css\bootstrap-reboot.min.css" />
+    <Content Include="BOOTSTRAP\css\bootstrap.css" />
+    <Content Include="BOOTSTRAP\css\bootstrap.min.css" />
+    <Content Include="BOOTSTRAP\js\bootstrap.bundle.js" />
+    <Content Include="BOOTSTRAP\js\bootstrap.bundle.min.js" />
+    <Content Include="BOOTSTRAP\js\bootstrap.js" />
+    <Content Include="BOOTSTRAP\js\bootstrap.min.js" />
+    <Content Include="BOOTSTRAP\popper.min.js" />
+    <Content Include="IMAGENES\login.png" />
+    <Content Include="PRINCIPAL\PrincipalEstudiante.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LOGIN\LoginM.aspx.cs">
+      <DependentUpon>LoginM.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LOGIN\LoginM.aspx.designer.cs">
+      <DependentUpon>LoginM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LOGIN\OlvidoContraseñaM.aspx.cs">
+      <DependentUpon>OlvidoContraseñaM.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LOGIN\OlvidoContraseñaM.aspx.designer.cs">
+      <DependentUpon>OlvidoContraseñaM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LOGIN\RegistrarseM.aspx.cs">
+      <DependentUpon>RegistrarseM.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LOGIN\RegistrarseM.aspx.designer.cs">
+      <DependentUpon>RegistrarseM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PAGINA MAESTRA\Estudiante.Master.cs">
+      <DependentUpon>Estudiante.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PAGINA MAESTRA\Estudiante.Master.designer.cs">
+      <DependentUpon>Estudiante.Master</DependentUpon>
+    </Compile>
+    <Compile Include="PAGINA MAESTRA\Login.Master.cs">
+      <DependentUpon>Login.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PAGINA MAESTRA\Login.Master.designer.cs">
+      <DependentUpon>Login.Master</DependentUpon>
+    </Compile>
+    <Compile Include="PAGINA MAESTRA\Teacher.Master.cs">
+      <DependentUpon>Teacher.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PAGINA MAESTRA\Teacher.Master.designer.cs">
+      <DependentUpon>Teacher.Master</DependentUpon>
+    </Compile>
+    <Compile Include="PRINCIPAL\PrincipalEstudiante.aspx.cs">
+      <DependentUpon>PrincipalEstudiante.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PRINCIPAL\PrincipalEstudiante.aspx.designer.cs">
+      <DependentUpon>PrincipalEstudiante.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ESSAYOS\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

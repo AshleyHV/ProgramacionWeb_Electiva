@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Estudiante.master.cs" Inherits="PROYECTOFINAL_2021_03.PAGINA_MAESTRA.Estudiante" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            height: 530px;
+            width: 667px;
+        }
+        .auto-style2 {
+            width: 100%;
+        }
+        .auto-style3 {
+            height: 166px;
+        }
+    </style>
+</head>
+<body style="height: 543px">
+    <form id="form1" runat="server">
+        <div class="auto-style1">
+            <table class="auto-style2">
+                <tr>
+                    <td>
+                        <asp:Image ID="Image1" runat="server" ImageUrl="~/IMAGENES/UAO BARRA SUPERIOR.png" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style3">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <asp:Image ID="Image2" runat="server" Height="67px" ImageUrl="~/IMAGENES/Login_Abajo.png" Width="665px" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+</html>
