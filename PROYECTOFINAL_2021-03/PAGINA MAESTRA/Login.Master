@@ -19,9 +19,6 @@
         .auto-style3 {
             height: 111px;
         }
-        .auto-style4 {
-            height: 336px;
-        }
         .auto-style5 {
             height: 105px;
         }
@@ -32,20 +29,25 @@
         <div class="auto-style1">
             <table class="auto-style2">
                 <tr>
-                    <td class="auto-style3" colspan="2">
-                        <asp:Image ID="Image1" runat="server" Height="108px" ImageUrl="~/IMAGENES/Login_Arriba.png" Width="747px" />
+                    <td class="auto-style3" colspan="3">
+                        <asp:Image ID="Image1" runat="server" Height="174px" ImageUrl="~/IMAGENES/Login_Arriba.png" Width="100%" />
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style4">&nbsp;</td>
-                    <td class="auto-style4">
+                    <td>
+                        <asp:Label ID="Label1" runat="server" Width="250px"></asp:Label>
+                    </td>
+                    <td>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
                     </td>
+                    <td>
+                        <asp:Label ID="Label2" runat="server" Width="250px"></asp:Label>
+                    </td>
                 </tr>
                 <tr>
-                    <td class="auto-style5" colspan="2">
-                        <asp:Image ID="Image2" runat="server" Height="102px" ImageUrl="~/IMAGENES/Login_Abajo.png" Width="747px" />
+                    <td class="auto-style5" colspan="3">
+                        <asp:Image ID="Image2" runat="server" Height="135px" ImageUrl="~/IMAGENES/Login_Abajo.png" Width="100%" />
                     </td>
                 </tr>
             </table>

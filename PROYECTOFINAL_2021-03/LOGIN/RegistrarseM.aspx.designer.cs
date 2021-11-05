@@ -15,6 +15,15 @@ namespace PROYECTOFINAL_2021_03.LOGIN
     {
 
         /// <summary>
+        /// Control Panel1.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel Panel1;
+
+        /// <summary>
         /// Control Label2.
         /// </summary>
         /// <remarks>
@@ -42,13 +51,31 @@ namespace PROYECTOFINAL_2021_03.LOGIN
         protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
-        /// Control tbxNombre.
+        /// Control tbxPNombre.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tbxNombre;
+        protected global::System.Web.UI.WebControls.TextBox tbxPNombre;
+
+        /// <summary>
+        /// Control Label13.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label13;
+
+        /// <summary>
+        /// Control tbxSNombre.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tbxSNombre;
 
         /// <summary>
         /// Control Label4.
@@ -60,13 +87,13 @@ namespace PROYECTOFINAL_2021_03.LOGIN
         protected global::System.Web.UI.WebControls.Label Label4;
 
         /// <summary>
-        /// Control tbxApellido.
+        /// Control tbxPApellido.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tbxApellido;
+        protected global::System.Web.UI.WebControls.TextBox tbxPApellido;
 
         /// <summary>
         /// Control Label5.
@@ -105,22 +132,40 @@ namespace PROYECTOFINAL_2021_03.LOGIN
         protected global::System.Web.UI.WebControls.TextBox tbxCorreo;
 
         /// <summary>
-        /// Control Label7.
+        /// Control Label14.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label7;
+        protected global::System.Web.UI.WebControls.Label Label14;
 
         /// <summary>
-        /// Control Label8.
+        /// Control tbxSApellido.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label8;
+        protected global::System.Web.UI.WebControls.TextBox tbxSApellido;
+
+        /// <summary>
+        /// Control Label15.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label15;
+
+        /// <summary>
+        /// Control tbxDireccion.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tbxDireccion;
 
         /// <summary>
         /// Control Label9.
@@ -132,31 +177,13 @@ namespace PROYECTOFINAL_2021_03.LOGIN
         protected global::System.Web.UI.WebControls.Label Label9;
 
         /// <summary>
-        /// Control tbCodigo.
+        /// Control tbxCodigo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tbCodigo;
-
-        /// <summary>
-        /// Control lbCarrera.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ListBox lbCarrera;
-
-        /// <summary>
-        /// Control lbTipoUsuario.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ListBox lbTipoUsuario;
+        protected global::System.Web.UI.WebControls.TextBox tbxCodigo;
 
         /// <summary>
         /// Control Label10.
