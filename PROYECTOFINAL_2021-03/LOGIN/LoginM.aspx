@@ -32,7 +32,7 @@
                                 <asp:Label ID="Label1" runat="server" BackColor="White" ForeColor="Black" Text="Nombre de Usuario:" Font-Size="Small" Font-Names="Arial"></asp:Label>
                                 <br />
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <asp:TextBox ID="tbxUsuarioInicio" runat="server" Width="286px" Height="18px" ToolTip="Ingresar su nombre de usuario registrado"></asp:TextBox>
+                                <asp:TextBox ID="tbxUsuarioInicio" runat="server" Width="286px" Height="18px" ToolTip="Ingresar su nombre de usuario registrado" OnTextChanged="tbxUsuarioInicio_TextChanged" ViewStateMode="Disabled"></asp:TextBox>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
                             <td class="auto-style9"></td>
                         </tr>
@@ -42,13 +42,14 @@
                                 <asp:Label ID="Label3" runat="server" ForeColor="Black" Text="Contraseña:" Font-Size="Small" Font-Names="Arial"></asp:Label>
                                 <br />
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <asp:TextBox ID="tbxContraseñaInicio" runat="server" Width="285px" Height="17px" ToolTip="Ingrese su contraseña"></asp:TextBox>
+                                <asp:TextBox ID="tbxContraseñaInicio" runat="server" Height="18px" ToolTip="Ingresar su contraseña" Width="286px"></asp:TextBox>
                             </td>
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
                             <td>&nbsp;</td>
-                            <td class="auto-style7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <td class="auto-style7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <asp:TextBox ID="tbxErrorLogin" runat="server" BackColor="White" BorderColor="White" BorderStyle="None" Enabled="False" ForeColor="#CC0000" Width="210px"></asp:TextBox>
                                 <br />
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 <asp:Button ID="btIngresar" runat="server" Text="INGRESAR" Width="188px" Height="28px" OnClick="btIngresar_Click" ToolTip="Ingresar" BackColor="#3399FF" BorderColor="#3399FF" BorderStyle="Solid" BorderWidth="1px" Font-Names="Arial Narrow" ForeColor="White" />

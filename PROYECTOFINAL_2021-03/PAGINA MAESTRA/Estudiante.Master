@@ -10,36 +10,28 @@
     </asp:ContentPlaceHolder>
     <style type="text/css">
         .auto-style1 {
-            height: 530px;
-            width: 667px;
-        }
-        .auto-style2 {
             width: 100%;
-        }
-        .auto-style3 {
-            height: 166px;
         }
     </style>
 </head>
-<body style="height: 543px">
+<body>
     <form id="form1" runat="server">
-        <div class="auto-style1">
-            <table class="auto-style2">
+        <div>
+            <table class="auto-style1">
                 <tr>
                     <td>
-                        <asp:Image ID="Image1" runat="server" ImageUrl="~/IMAGENES/UAO BARRA SUPERIOR.png" />
+                        <asp:Image ID="Image1" runat="server" ImageUrl="~/IMAGENES/PORTAL ESTUDIANTE BARRA SUPERIOR.png" Width="100%" />
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style3">
+                    <td>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </asp:ContentPlaceHolder>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <asp:Image ID="Image2" runat="server" Height="67px" ImageUrl="~/IMAGENES/Login_Abajo.png" Width="665px" />
+                        <asp:Image ID="Image2" runat="server" ImageUrl="~/IMAGENES/PORTAL ESTUDIANTE BARRA INFERIOR.png" Width="100%" />
                     </td>
                 </tr>
             </table>

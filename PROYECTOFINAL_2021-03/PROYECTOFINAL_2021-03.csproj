@@ -69,12 +69,16 @@
     <Content Include="BOOTSTRAP\js\bootstrap.bundle.min.js.map" />
     <Content Include="BOOTSTRAP\js\bootstrap.js.map" />
     <Content Include="BOOTSTRAP\js\bootstrap.min.js.map" />
+    <Content Include="IMAGENES\Cafeteria.jpg" />
+    <Content Include="IMAGENES\CampusHD.jpg" />
     <Content Include="IMAGENES\CampusLabs.jpg" />
     <Content Include="IMAGENES\Login_Abajo.png" />
     <Content Include="IMAGENES\Login_Arriba.png" />
     <Content Include="IMAGENES\LogoPortal.png" />
     <Content Include="IMAGENES\LogoPortalLineaRoja.jpg" />
     <Content Include="IMAGENES\logo_uao.png" />
+    <Content Include="IMAGENES\PORTAL ESTUDIANTE BARRA INFERIOR.png" />
+    <Content Include="IMAGENES\PORTAL ESTUDIANTE BARRA SUPERIOR.png" />
     <Content Include="IMAGENES\Recupera Contraseña.jpg" />
     <Content Include="IMAGENES\Registrarse.png" />
     <Content Include="IMAGENES\UAO BARRA SUPERIOR.png" />
@@ -82,9 +86,11 @@
     <Content Include="LOGIN\LoginM.aspx" />
     <Content Include="LOGIN\OlvidoContraseñaM.aspx" />
     <Content Include="LOGIN\RegistrarseM.aspx" />
-    <Content Include="PAGINA MAESTRA\Estudiante.Master" />
+    <Content Include="MENU ESTUDIANTE\InformacionPersonal.aspx" />
+    <Content Include="MENU ESTUDIANTE\Asignatura.aspx" />
     <Content Include="PAGINA MAESTRA\Teacher.Master" />
     <Content Include="PAGINA MAESTRA\Login.Master" />
+    <Content Include="PAGINA MAESTRA\Estudiante.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -105,7 +111,7 @@
     <Content Include="BOOTSTRAP\js\bootstrap.min.js" />
     <Content Include="BOOTSTRAP\popper.min.js" />
     <Content Include="IMAGENES\login.png" />
-    <Content Include="PRINCIPAL\PrincipalEstudiante.aspx" />
+    <Content Include="PRINCIPAL\Estudiante.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -130,6 +136,20 @@
     <Compile Include="LOGIN\RegistrarseM.aspx.designer.cs">
       <DependentUpon>RegistrarseM.aspx</DependentUpon>
     </Compile>
+    <Compile Include="MENU ESTUDIANTE\InformacionPersonal.aspx.cs">
+      <DependentUpon>InformacionPersonal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MENU ESTUDIANTE\InformacionPersonal.aspx.designer.cs">
+      <DependentUpon>InformacionPersonal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MENU ESTUDIANTE\Asignatura.aspx.cs">
+      <DependentUpon>Asignatura.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MENU ESTUDIANTE\Asignatura.aspx.designer.cs">
+      <DependentUpon>Asignatura.aspx</DependentUpon>
+    </Compile>
     <Compile Include="PAGINA MAESTRA\Estudiante.Master.cs">
       <DependentUpon>Estudiante.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -151,12 +171,12 @@
     <Compile Include="PAGINA MAESTRA\Teacher.Master.designer.cs">
       <DependentUpon>Teacher.Master</DependentUpon>
     </Compile>
-    <Compile Include="PRINCIPAL\PrincipalEstudiante.aspx.cs">
-      <DependentUpon>PrincipalEstudiante.aspx</DependentUpon>
+    <Compile Include="PRINCIPAL\Estudiante.aspx.cs">
+      <DependentUpon>Estudiante.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="PRINCIPAL\PrincipalEstudiante.aspx.designer.cs">
-      <DependentUpon>PrincipalEstudiante.aspx</DependentUpon>
+    <Compile Include="PRINCIPAL\Estudiante.aspx.designer.cs">
+      <DependentUpon>Estudiante.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

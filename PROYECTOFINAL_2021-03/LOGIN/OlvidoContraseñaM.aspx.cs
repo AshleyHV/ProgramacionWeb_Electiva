@@ -13,5 +13,10 @@ namespace PROYECTOFINAL_2021_03.LOGIN
         {
 
         }
+
+        protected void btCambiarContraseña_Click(object sender, EventArgs e)
+        {
+            if (tbxUsuarioC.Text=="" && tbxContraseñaC.Text == "") { tbxErrorCambioC.Text="Error Ingresar Usuario y/o Contraseña*";}
+        }
     }
 }
