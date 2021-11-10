@@ -5,3 +5,7 @@ D:\Users\Jose Manuel\Documents\UAO 2021-03\PROGRAMACION EN AMBIENTE WEB\PROYECTO
 D:\Users\Jose Manuel\Documents\UAO 2021-03\PROGRAMACION EN AMBIENTE WEB\PROYECTOFINAL_2021-03\obj\Debug\PROYECTOFINAL_2021-03.csproj.CoreCompileInputs.cache
 D:\Users\Jose Manuel\Documents\UAO 2021-03\PROGRAMACION EN AMBIENTE WEB\PROYECTOFINAL_2021-03\obj\Debug\PROYECTOFINAL_2021-03.dll
 D:\Users\Jose Manuel\Documents\UAO 2021-03\PROGRAMACION EN AMBIENTE WEB\PROYECTOFINAL_2021-03\obj\Debug\PROYECTOFINAL_2021-03.pdb
+D:\Datos\Documentos\Universidad\Semestre IX\Ambiente Web (Electiva)\Proyecto_Final\ProgramacionWeb_Electiva\PROYECTOFINAL_2021-03\obj\Debug\PROYECTOFINAL_2021-03.csproj.AssemblyReference.cache
+D:\Datos\Documentos\Universidad\Semestre IX\Ambiente Web (Electiva)\Proyecto_Final\ProgramacionWeb_Electiva\PROYECTOFINAL_2021-03\obj\Debug\PROYECTOFINAL_2021-03.csproj.CoreCompileInputs.cache
+D:\Datos\Documentos\Universidad\Semestre IX\Ambiente Web (Electiva)\Proyecto_Final\ProgramacionWeb_Electiva\PROYECTOFINAL_2021-03\obj\Debug\PROYECTOFINAL_2021-03.dll
+D:\Datos\Documentos\Universidad\Semestre IX\Ambiente Web (Electiva)\Proyecto_Final\ProgramacionWeb_Electiva\PROYECTOFINAL_2021-03\obj\Debug\PROYECTOFINAL_2021-03.pdb
