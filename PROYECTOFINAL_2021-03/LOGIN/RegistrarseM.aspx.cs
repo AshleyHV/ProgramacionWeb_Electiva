@@ -5,6 +5,10 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
+using System.Data;
+using System.Data.SqlClient;
+using System.Configuration;
+
 namespace PROYECTOFINAL_2021_03.LOGIN
 {
     public partial class RegistrarseM : System.Web.UI.Page
@@ -37,6 +41,11 @@ namespace PROYECTOFINAL_2021_03.LOGIN
         protected void BTLimpiar_Click(object sender, EventArgs e)
         {
             Limpiar();
+        }
+
+        protected void tbxPNombre_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

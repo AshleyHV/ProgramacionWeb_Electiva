@@ -27,7 +27,7 @@
                                         <td class="auto-style8">
                                             <asp:Label ID="Label3" runat="server" Font-Bold="False" Font-Names="Arial" Font-Size="Small" ForeColor="Black" Height="22px" Text="Primer Nombre*" CssClass="LabelReg"></asp:Label>
                                             &nbsp;
-                                            <asp:TextBox ID="tbxPNombre" runat="server" Height="20px" ToolTip="Ingrese su primer nombre" Width="130px"></asp:TextBox>
+                                            <asp:TextBox ID="tbxPNombre" runat="server" Height="20px" ToolTip="Ingrese su primer nombre" Width="130px" OnTextChanged="tbxPNombre_TextChanged"></asp:TextBox>
                                         </td>
                                         <td>&nbsp;</td>
                                         <td class="auto-style8">
