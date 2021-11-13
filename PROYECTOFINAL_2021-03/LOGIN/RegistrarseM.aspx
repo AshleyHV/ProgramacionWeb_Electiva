@@ -27,7 +27,7 @@
                                         <td class="auto-style8">
                                             <asp:Label ID="Label3" runat="server" Font-Bold="False" Font-Names="Arial" Font-Size="Small" ForeColor="Black" Height="22px" Text="Primer Nombre*" CssClass="LabelReg"></asp:Label>
                                             &nbsp;
-                                            <asp:TextBox ID="tbxPNombre" runat="server" Height="20px" ToolTip="Ingrese su primer nombre" Width="130px" OnTextChanged="tbxPNombre_TextChanged"></asp:TextBox>
+                                            <asp:TextBox ID="tbxPNombre" runat="server" Height="20px" Width="130px"></asp:TextBox>
                                         </td>
                                         <td>&nbsp;</td>
                                         <td class="auto-style8">
@@ -47,10 +47,9 @@
                                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                             <asp:TextBox ID="tbxTelefono" runat="server" Height="20px" Width="130px" ToolTip="Telefono y/o numero de celular"></asp:TextBox>
                                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
-                                            <asp:Label ID="Label6" runat="server" Font-Bold="False" Font-Names="Arial" Font-Size="Small" ForeColor="Black" Height="22px" Text="Correo*"></asp:Label>
-                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                            <asp:TextBox ID="tbxCorreo" runat="server" Height="20px" Width="130px" ToolTip="Correo Institucional"></asp:TextBox>
-                                            &nbsp;&nbsp;</td>
+                                            <asp:Label ID="Label6" runat="server" Font-Bold="False" Font-Names="Arial" Font-Size="Small" ForeColor="Black" Height="22px" Text="Semestre*"></asp:Label>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:TextBox ID="tbxSemestre" runat="server" Height="20px" Width="130px"></asp:TextBox>
+                                            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;</td>
                                         <td>&nbsp;</td>
                                         <td class="auto-style8">
                                             <asp:Label ID="Label14" runat="server" Font-Bold="False" Font-Names="Arial" Font-Size="Small" ForeColor="Black" Height="22px" Text="Segundo Apellido"></asp:Label>
@@ -81,12 +80,14 @@
                                     </tr>
                                     <tr>
                                         <td class="auto-style8">
-                                            <asp:Label ID="Label11" runat="server" Font-Bold="False" Font-Names="Arial" Font-Size="Small" ForeColor="Black" Height="22px" Text="Nombre Usuario:*"></asp:Label>
-                                            <asp:TextBox ID="tbxUsuarioR" runat="server" Height="20px" ToolTip="Usuario para el Login" Width="130px"></asp:TextBox>
+                                            <asp:Label ID="Label11" runat="server" Font-Bold="False" Font-Names="Arial" Font-Size="Small" ForeColor="Black" Height="22px" Text="Correo:*"></asp:Label>
+                                            &nbsp;
+                                            <asp:TextBox ID="tbxCorreoRegistro" runat="server" Height="20px" Width="130px"></asp:TextBox>
                                         </td>
                                         <td>&nbsp;</td>
                                         <td class="auto-style8">
                                             <asp:Label ID="Label12" runat="server" Font-Bold="False" Font-Names="Arial" Font-Size="Small" ForeColor="Black" Height="22px" Text="Contraseña:*"></asp:Label>
+                                            &nbsp;
                                             <asp:TextBox ID="tbxContraseñaR" runat="server" Height="20px" ToolTip="Contraseña de 6 caracteres" Width="130px"></asp:TextBox>
                                         </td>
                                     </tr>
@@ -95,8 +96,9 @@
                                     </tr>
                                     <tr>
                                         <td class="auto-style8">&nbsp;</td>
-                                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                            <asp:Button ID="btEnviarRegistro" runat="server" Text="Enviar Datos" ToolTip="Registrarse" BackColor="#000066" BorderStyle="None" Font-Bold="True" Font-Names="Arial Rounded MT Bold" ForeColor="White" />
+                                        <td>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <asp:Button ID="btEnviarDatos" runat="server" BackColor="#000066" Font-Bold="True" ForeColor="White" Height="29px" Text="Enviar Datos" Width="161px" />
                                         </td>
                                         <td class="auto-style8">&nbsp;</td>
                                     </tr>

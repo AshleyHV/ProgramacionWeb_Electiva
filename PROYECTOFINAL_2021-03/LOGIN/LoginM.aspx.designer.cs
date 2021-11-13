@@ -51,13 +51,13 @@ namespace PROYECTOFINAL_2021_03.LOGIN
         protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// Control tbxUsuarioInicio.
+        /// Control tbxCorreoInicio.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tbxUsuarioInicio;
+        protected global::System.Web.UI.WebControls.TextBox tbxCorreoInicio;
 
         /// <summary>
         /// Control Label3.

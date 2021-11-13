@@ -30,7 +30,7 @@ namespace PROYECTOFINAL_2021_03.LOGIN
 
         protected void btIngresar_Click(object sender, EventArgs e)
         {
-            if (tbxUsuarioInicio.Text == "" && tbxContraseñaInicio.Text=="") { tbxErrorLogin.Text = "Digital Usuario y/o Contraseña*";}
+            if (tbxCorreoInicio.Text == "" && tbxContraseñaInicio.Text=="") { tbxErrorLogin.Text = "Digital Usuario y/o Contraseña*";}
             else { Response.Redirect("../PRINCIPAL/Estudiante.aspx");}   
         }
 

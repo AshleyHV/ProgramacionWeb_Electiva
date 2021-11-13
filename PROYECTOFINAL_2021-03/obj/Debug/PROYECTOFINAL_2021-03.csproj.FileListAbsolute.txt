@@ -13,3 +13,6 @@ D:\Users\Jose Manuel\Documents\GitHub\ProgramacionWeb_Electiva\PROYECTOFINAL_202
 D:\Users\Jose Manuel\Documents\GitHub\ProgramacionWeb_Electiva\PROYECTOFINAL_2021-03\obj\Debug\PROYECTOFINAL_2021-03.csproj.CoreCompileInputs.cache
 D:\Users\Jose Manuel\Documents\GitHub\ProgramacionWeb_Electiva\PROYECTOFINAL_2021-03\obj\Debug\PROYECTOFINAL_2021-03.dll
 D:\Users\Jose Manuel\Documents\GitHub\ProgramacionWeb_Electiva\PROYECTOFINAL_2021-03\obj\Debug\PROYECTOFINAL_2021-03.pdb
+D:\Users\Jose Manuel\Documents\GitHub\ProgramacionWeb_Electiva\PROYECTOFINAL_2021-03\bin\PROYECTOFINAL_2021-03.dll.config
+D:\Users\Jose Manuel\Documents\GitHub\ProgramacionWeb_Electiva\PROYECTOFINAL_2021-03\bin\PROYECTOFINAL_2021-03.dll
+D:\Users\Jose Manuel\Documents\GitHub\ProgramacionWeb_Electiva\PROYECTOFINAL_2021-03\bin\PROYECTOFINAL_2021-03.pdb

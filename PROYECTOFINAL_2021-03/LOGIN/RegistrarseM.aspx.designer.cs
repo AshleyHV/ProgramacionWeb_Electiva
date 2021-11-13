@@ -123,13 +123,13 @@ namespace PROYECTOFINAL_2021_03.LOGIN
         protected global::System.Web.UI.WebControls.Label Label6;
 
         /// <summary>
-        /// Control tbxCorreo.
+        /// Control tbxSemestre.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tbxCorreo;
+        protected global::System.Web.UI.WebControls.TextBox tbxSemestre;
 
         /// <summary>
         /// Control Label14.
@@ -204,13 +204,13 @@ namespace PROYECTOFINAL_2021_03.LOGIN
         protected global::System.Web.UI.WebControls.Label Label11;
 
         /// <summary>
-        /// Control tbxUsuarioR.
+        /// Control tbxCorreoRegistro.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tbxUsuarioR;
+        protected global::System.Web.UI.WebControls.TextBox tbxCorreoRegistro;
 
         /// <summary>
         /// Control Label12.
@@ -231,12 +231,12 @@ namespace PROYECTOFINAL_2021_03.LOGIN
         protected global::System.Web.UI.WebControls.TextBox tbxContraseñaR;
 
         /// <summary>
-        /// Control btEnviarRegistro.
+        /// Control btEnviarDatos.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btEnviarRegistro;
+        protected global::System.Web.UI.WebControls.Button btEnviarDatos;
     }
 }

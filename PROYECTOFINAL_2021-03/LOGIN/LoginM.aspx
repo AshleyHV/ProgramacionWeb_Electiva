@@ -28,12 +28,12 @@
                         </tr>
                         <tr>
                             <td class="auto-style9"></td>
-                            <td class="auto-style7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <asp:Label ID="Label1" runat="server" BackColor="White" ForeColor="Black" Text="Nombre de Usuario:" Font-Size="Small" Font-Names="Arial"></asp:Label>
+                            <td class="auto-style7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+                                <asp:Label ID="Label1" runat="server" BackColor="White" ForeColor="Black" Text="Correo:" Font-Size="Small" Font-Names="Arial"></asp:Label>
                                 <br />
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <asp:TextBox ID="tbxUsuarioInicio" runat="server" Width="286px" Height="18px" ToolTip="Ingresar su nombre de usuario registrado" OnTextChanged="tbxUsuarioInicio_TextChanged" ViewStateMode="Disabled"></asp:TextBox>
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+                                <asp:TextBox ID="tbxCorreoInicio" runat="server" Width="286px" Height="18px"></asp:TextBox>
+                            </td>
                             <td class="auto-style9"></td>
                         </tr>
                         <tr>
