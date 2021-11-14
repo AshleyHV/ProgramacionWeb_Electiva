@@ -16,3 +16,10 @@ D:\Users\Jose Manuel\Documents\GitHub\ProgramacionWeb_Electiva\PROYECTOFINAL_202
 D:\Users\Jose Manuel\Documents\GitHub\ProgramacionWeb_Electiva\PROYECTOFINAL_2021-03\bin\PROYECTOFINAL_2021-03.dll.config
 D:\Users\Jose Manuel\Documents\GitHub\ProgramacionWeb_Electiva\PROYECTOFINAL_2021-03\bin\PROYECTOFINAL_2021-03.dll
 D:\Users\Jose Manuel\Documents\GitHub\ProgramacionWeb_Electiva\PROYECTOFINAL_2021-03\bin\PROYECTOFINAL_2021-03.pdb
+C:\Users\USER\Documents\GitHub\ProgramacionWeb_Electiva\PROYECTOFINAL_2021-03\bin\PROYECTOFINAL_2021-03.dll.config
+C:\Users\USER\Documents\GitHub\ProgramacionWeb_Electiva\PROYECTOFINAL_2021-03\bin\PROYECTOFINAL_2021-03.dll
+C:\Users\USER\Documents\GitHub\ProgramacionWeb_Electiva\PROYECTOFINAL_2021-03\bin\PROYECTOFINAL_2021-03.pdb
+C:\Users\USER\Documents\GitHub\ProgramacionWeb_Electiva\PROYECTOFINAL_2021-03\obj\Debug\PROYECTOFINAL_2021-03.csproj.AssemblyReference.cache
+C:\Users\USER\Documents\GitHub\ProgramacionWeb_Electiva\PROYECTOFINAL_2021-03\obj\Debug\PROYECTOFINAL_2021-03.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\GitHub\ProgramacionWeb_Electiva\PROYECTOFINAL_2021-03\obj\Debug\PROYECTOFINAL_2021-03.dll
+C:\Users\USER\Documents\GitHub\ProgramacionWeb_Electiva\PROYECTOFINAL_2021-03\obj\Debug\PROYECTOFINAL_2021-03.pdb

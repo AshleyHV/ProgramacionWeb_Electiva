@@ -1,4 +1,18 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PAGINA MAESTRA/Login.Master" AutoEventWireup="true" CodeBehind="OlvidoContraseñaM.aspx.cs" Inherits="PROYECTOFINAL_2021_03.LOGIN.OlvidoContraseñaM" %>
+
+<script runat="server">
+
+    protected void btCambiarContraseña_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    protected void tbxContraseñaC_TextChanged(object sender, EventArgs e)
+    {
+
+    }
+</script>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
         .auto-style6 {
@@ -36,7 +50,7 @@
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:Label ID="Label14" runat="server" Font-Bold="False" Font-Names="Times New Roman" Font-Size="Small" ForeColor="Black" Height="22px" Text="Ingrese su nueva contraseña"></asp:Label>
                     <br />
-                    <asp:TextBox ID="tbxContraseñaC" runat="server" Height="16px" Width="98%" ToolTip="Digitar nueva contraseña"></asp:TextBox>
+                    <asp:TextBox ID="tbxContraseñaC" runat="server" Height="16px" Width="98%" ToolTip="Digitar nueva contraseña" OnTextChanged="tbxContraseñaC_TextChanged"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
             </tr>

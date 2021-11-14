@@ -31,7 +31,16 @@ namespace PROYECTOFINAL_2021_03.LOGIN
         protected void btIngresar_Click(object sender, EventArgs e)
         {
             if (tbxCorreoInicio.Text == "" && tbxContraseñaInicio.Text=="") { tbxErrorLogin.Text = "Digital Usuario y/o Contraseña*";}
-            else { Response.Redirect("../PRINCIPAL/Estudiante.aspx");}   
+            else {
+                var sqlConn = new SqlConnection(ConfigurationManager.ConnectionStrings["ConexionSQL"].ConnectionString);
+                var strSQL = "SELECT [CorreoElectronico],[Contraseña] FROM [dbo].[Estudiantes] WHERE [CorreoElectronico] = '"+ tbxCorreoInicio.Text+ '" AND [Contraseña]= '"'" + tbxContraseñaInicio.Text+ "'";
+                var cmd = new SqlCommand(strSQL, sqlConn);
+                sqlConn.Open();
+                cmd.ExecuteNonQuery();
+                sqlConn.Close();
+                
+                
+                Response.Redirect("../PRINCIPAL/Estudiante.aspx");}   
         }
 
         protected void tbxUsuarioInicio_TextChanged(object sender, EventArgs e)
