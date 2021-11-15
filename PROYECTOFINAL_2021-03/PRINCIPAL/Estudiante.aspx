@@ -30,10 +30,10 @@
                     <DynamicMenuStyle BackColor="#F7F6F3" />
                     <DynamicSelectedStyle BackColor="#5D7B9D" />
                     <Items>
-                        <asp:MenuItem Text="Matricula Academica" ToolTip="Asignaturas Cursadas" Value="Matricula Academica"></asp:MenuItem>
+                        <asp:MenuItem Text="Matricula Academica" ToolTip="Asignaturas Cursadas" Value="Matricula Academica" NavigateUrl="~/MENU ESTUDIANTE/MatriculaAcademica.aspx"></asp:MenuItem>
                         <asp:MenuItem Text="Informacion Personal" ToolTip="Informacion del estudiante" Value="Informacion Personal" NavigateUrl="~/MENU ESTUDIANTE/InformacionPersonal.aspx"></asp:MenuItem>
-                        <asp:MenuItem Text="Asignaturas" ToolTip="Calificaciones" Value="Asignaturas" NavigateUrl="~/MENU ESTUDIANTE/Asignatura.aspx"></asp:MenuItem>
-                        <asp:MenuItem Text="Horario" ToolTip="Horario Definido" Value="Horario"></asp:MenuItem>
+                        <asp:MenuItem Text="Asignaturas" ToolTip="Calificaciones" Value="Asignaturas" NavigateUrl="~/MENU ESTUDIANTE/Asignaturas.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Horario" ToolTip="Horario Definido" Value="Horario" NavigateUrl="~/MENU ESTUDIANTE/Horario.aspx"></asp:MenuItem>
                     </Items>
                     <StaticHoverStyle BackColor="#7C6F57" ForeColor="White" />
                     <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />

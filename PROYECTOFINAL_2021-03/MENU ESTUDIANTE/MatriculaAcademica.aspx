@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PAGINA MAESTRA/Estudiante.Master" AutoEventWireup="true" CodeBehind="Asignatura.aspx.cs" Inherits="PROYECTOFINAL_2021_03.MENU_ESTUDIANTE.NotasParciales" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PAGINA MAESTRA/Estudiante.Master" AutoEventWireup="true" CodeBehind="MatriculaAcademica.aspx.cs" Inherits="PROYECTOFINAL_2021_03.MENU_ESTUDIANTE.NotasParciales" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
         .auto-style2 {

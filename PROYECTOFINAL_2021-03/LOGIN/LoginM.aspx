@@ -32,7 +32,7 @@
                                 <asp:Label ID="Label1" runat="server" BackColor="White" ForeColor="Black" Text="Correo:" Font-Size="Small" Font-Names="Arial"></asp:Label>
                                 <br />
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <asp:TextBox ID="tbxCorreoInicio" runat="server" Width="286px" Height="18px"></asp:TextBox>
+                                <asp:TextBox ID="tbxCorreoInicio" runat="server" Width="286px" Height="22px"></asp:TextBox>
                             </td>
                             <td class="auto-style9"></td>
                         </tr>
@@ -42,7 +42,7 @@
                                 <asp:Label ID="Label3" runat="server" ForeColor="Black" Text="Contraseña:" Font-Size="Small" Font-Names="Arial"></asp:Label>
                                 <br />
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <asp:TextBox ID="tbxContraseñaInicio" runat="server" Height="18px" ToolTip="Ingresar su contraseña" Width="286px"></asp:TextBox>
+                                <asp:TextBox ID="tbxContraseñaInicio" runat="server" Height="22px" ToolTip="Ingresar su contraseña" Width="286px"></asp:TextBox>
                             </td>
                             <td>&nbsp;</td>
                         </tr>

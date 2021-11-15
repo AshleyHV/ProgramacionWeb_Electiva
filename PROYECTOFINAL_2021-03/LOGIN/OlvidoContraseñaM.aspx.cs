@@ -36,7 +36,7 @@ namespace PROYECTOFINAL_2021_03.LOGIN
         protected void btCambiarContraseña_Click(object sender, EventArgs e)
         {
             var sqlConn = new SqlConnection(ConfigurationManager.ConnectionStrings["ConexionSQL"].ConnectionString);
-            var strSQL = "UPDATE [dbo].[Estudiantes] SET [Contraseña] = '" + tbxContraseñaC.Text + '" WHERE  [CorreoElectronico] ='"'"+ tbxCorreoOlvido.Text +"'";
+            var strSQL = "UPDATE [dbo].[Estudiantes] SET [Contraseña] = '" + tbxContraseñaC.Text + "' WHERE  [CorreoElectronico] ='"+ tbxCorreoOlvido.Text +"'";
             
 
             var cmd = new SqlCommand(strSQL, sqlConn);

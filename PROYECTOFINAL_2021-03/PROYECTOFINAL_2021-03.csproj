@@ -69,9 +69,12 @@
     <Content Include="BOOTSTRAP\js\bootstrap.bundle.min.js.map" />
     <Content Include="BOOTSTRAP\js\bootstrap.js.map" />
     <Content Include="BOOTSTRAP\js\bootstrap.min.js.map" />
+    <Content Include="IMAGENES\6710-ajuste-uao-en-cifras.png" />
+    <Content Include="IMAGENES\banner-PRE.jpg" />
     <Content Include="IMAGENES\Cafeteria.jpg" />
     <Content Include="IMAGENES\CampusHD.jpg" />
     <Content Include="IMAGENES\CampusLabs.jpg" />
+    <Content Include="IMAGENES\InformacionPersonal.jpg" />
     <Content Include="IMAGENES\Login_Abajo.png" />
     <Content Include="IMAGENES\Login_Arriba.png" />
     <Content Include="IMAGENES\LogoPortal.png" />
@@ -87,10 +90,10 @@
     <Content Include="LOGIN\LoginM.aspx" />
     <Content Include="LOGIN\OlvidoContraseñaM.aspx" />
     <Content Include="LOGIN\RegistrarseM.aspx" />
+    <Content Include="MENU ESTUDIANTE\Asignaturas.aspx" />
     <Content Include="MENU ESTUDIANTE\Horario.aspx" />
-    <Content Include="MENU ESTUDIANTE\InformacionAcademica.aspx" />
     <Content Include="MENU ESTUDIANTE\InformacionPersonal.aspx" />
-    <Content Include="MENU ESTUDIANTE\Asignatura.aspx" />
+    <Content Include="MENU ESTUDIANTE\MatriculaAcademica.aspx" />
     <Content Include="PAGINA MAESTRA\Teacher.Master" />
     <Content Include="PAGINA MAESTRA\Login.Master" />
     <Content Include="PAGINA MAESTRA\Estudiante.Master" />
@@ -140,19 +143,19 @@
     <Compile Include="LOGIN\RegistrarseM.aspx.designer.cs">
       <DependentUpon>RegistrarseM.aspx</DependentUpon>
     </Compile>
+    <Compile Include="MENU ESTUDIANTE\Asignaturas.aspx.cs">
+      <DependentUpon>Asignaturas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MENU ESTUDIANTE\Asignaturas.aspx.designer.cs">
+      <DependentUpon>Asignaturas.aspx</DependentUpon>
+    </Compile>
     <Compile Include="MENU ESTUDIANTE\Horario.aspx.cs">
       <DependentUpon>Horario.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="MENU ESTUDIANTE\Horario.aspx.designer.cs">
       <DependentUpon>Horario.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="MENU ESTUDIANTE\InformacionAcademica.aspx.cs">
-      <DependentUpon>InformacionAcademica.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="MENU ESTUDIANTE\InformacionAcademica.aspx.designer.cs">
-      <DependentUpon>InformacionAcademica.aspx</DependentUpon>
     </Compile>
     <Compile Include="MENU ESTUDIANTE\InformacionPersonal.aspx.cs">
       <DependentUpon>InformacionPersonal.aspx</DependentUpon>
@@ -161,12 +164,12 @@
     <Compile Include="MENU ESTUDIANTE\InformacionPersonal.aspx.designer.cs">
       <DependentUpon>InformacionPersonal.aspx</DependentUpon>
     </Compile>
-    <Compile Include="MENU ESTUDIANTE\Asignatura.aspx.cs">
-      <DependentUpon>Asignatura.aspx</DependentUpon>
+    <Compile Include="MENU ESTUDIANTE\MatriculaAcademica.aspx.cs">
+      <DependentUpon>MatriculaAcademica.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="MENU ESTUDIANTE\Asignatura.aspx.designer.cs">
-      <DependentUpon>Asignatura.aspx</DependentUpon>
+    <Compile Include="MENU ESTUDIANTE\MatriculaAcademica.aspx.designer.cs">
+      <DependentUpon>MatriculaAcademica.aspx</DependentUpon>
     </Compile>
     <Compile Include="PAGINA MAESTRA\Estudiante.Master.cs">
       <DependentUpon>Estudiante.Master</DependentUpon>
