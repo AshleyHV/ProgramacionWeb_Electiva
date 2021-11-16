@@ -30,19 +30,19 @@
                         <tr>
                             <td class="auto-style3">&nbsp;</td>
                             <td>
-                                <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Ing.Multimedia" />
+                                <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Ing.Multimedia" Height="40px" />
                             </td>
                             <td>
-                                <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Ing.Electronica" />
+                                <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Ing.Electronica" Height="40px" />
                             </td>
                             <td>
-                                <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="Ing. Informatica" />
+                                <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="Ing. Informatica" Height="40px" />
                             </td>
                             <td>
-                                <asp:Button ID="Button4" runat="server" OnClick="Button4_Click" Text="Ing.Mecatronica" />
+                                <asp:Button ID="Button4" runat="server" OnClick="Button4_Click" Text="Ing.Mecatronica" Height="40px" />
                             </td>
                             <td>
-                                <asp:Button ID="Button5" runat="server" OnClick="Button5_Click" Text="Ing.Industrial" />
+                                <asp:Button ID="Button5" runat="server" OnClick="Button5_Click" Text="Ing.Industrial" Height="40px" />
                             </td>
                         </tr>
                     </table>

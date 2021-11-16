@@ -5,16 +5,16 @@
     <table class="auto-style1">
         <tr>
             <td colspan="2">
-                <asp:Menu ID="Menu1" runat="server" BackColor="#FFFBD6" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="Small" ForeColor="#990000" Orientation="Horizontal" RenderingMode="Table" StaticSubMenuIndent="10px" Width="100%">
+                <asp:Menu ID="Menu1" runat="server" BackColor="#000066" DynamicHorizontalOffset="2" Font-Names="Arial Rounded MT Bold" Font-Size="Small" ForeColor="White" Orientation="Horizontal" RenderingMode="Table" StaticSubMenuIndent="10px" Width="100%" Font-Bold="True">
                     <DynamicHoverStyle BackColor="#990000" ForeColor="White" />
                     <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
                     <DynamicMenuStyle BackColor="#FFFBD6" />
                     <DynamicSelectedStyle BackColor="#FFCC66" />
                     <Items>
-                        <asp:MenuItem Text="Informacion Personal" Value="Informacion Personal"></asp:MenuItem>
-                        <asp:MenuItem Text="Calificaciones" Value="Calificaciones"></asp:MenuItem>
-                        <asp:MenuItem Text="Asignaturas" Value="Asignaturas"></asp:MenuItem>
-                        <asp:MenuItem Text="Horario" Value="Horario"></asp:MenuItem>
+                        <asp:MenuItem Text="Informacion Personal" Value="Informacion Personal" NavigateUrl="~/MENU DOCENTE/InformacionPersonalDocente.aspx" ToolTip="Informacion Personal Docente"></asp:MenuItem>
+                        <asp:MenuItem Text="Calificaciones" Value="Calificaciones" NavigateUrl="~/MENU DOCENTE/CalificacionesDocente.aspx" ToolTip="Calificaciones"></asp:MenuItem>
+                        <asp:MenuItem Text="Asignaturas" Value="Asignaturas" NavigateUrl="~/MENU DOCENTE/AsignaturasDocente.aspx" ToolTip="Asignaturas"></asp:MenuItem>
+                        <asp:MenuItem Text="Horario" Value="Horario" NavigateUrl="~/MENU DOCENTE/HorarioDocente.aspx" ToolTip="Horario"></asp:MenuItem>
                     </Items>
                     <StaticHoverStyle BackColor="#990000" ForeColor="White" />
                     <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />

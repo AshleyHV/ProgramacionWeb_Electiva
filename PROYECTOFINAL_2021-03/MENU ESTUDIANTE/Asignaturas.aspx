@@ -138,19 +138,19 @@
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:Label ID="Label20" runat="server" Text="Codigo Estudiantil" Font-Bold="True" Font-Names="Arial Narrow"></asp:Label>
             </td>
-            <td colspan="2">&nbsp;<asp:TextBox ID="TextBox18" runat="server" Height="26px" Width="177px"></asp:TextBox>
+            <td colspan="2">&nbsp;<asp:TextBox ID="TextBox18" runat="server" Height="26px" Width="177px" ToolTip="Campo para codigo Estudiantil"></asp:TextBox>
                 <br />
             </td>
             <td class="auto-style6">&nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
             <td>&nbsp;<asp:Button ID="Button3" runat="server" BackColor="White" BorderColor="White" BorderStyle="Solid" Enabled="False" Font-Bold="True" Font-Names="Arial Narrow" Font-Size="Medium" Text="Promedio Semestral:" />
 &nbsp;<asp:TextBox ID="TextBox22" runat="server" Height="27px"></asp:TextBox>
-&nbsp;<asp:Button ID="Button2" runat="server" BackColor="Black" BorderStyle="Solid" Font-Bold="True" Font-Names="Arial Narrow" Font-Size="Medium" ForeColor="White" Height="34px" Text="Calcular Promedio" Width="255px" />
+&nbsp;<asp:Button ID="Button2" runat="server" BackColor="Black" BorderStyle="Solid" Font-Bold="True" Font-Names="Arial Narrow" Font-Size="Medium" ForeColor="White" Height="34px" Text="Calcular Promedio" Width="255px" ToolTip="Calcular el promedio Semestral" />
             </td>
         </tr>
         <tr>
             <td class="auto-style2">
-                <asp:Button ID="Button1" runat="server" Height="37px" Text="Consultar Notas" Width="205px" BackColor="Black" BorderStyle="Solid" Font-Bold="True" Font-Names="Arial Narrow" Font-Size="Small" ForeColor="White" />
+                <asp:Button ID="Button1" runat="server" Height="37px" Text="Consultar Notas" Width="205px" BackColor="Black" BorderStyle="Solid" Font-Bold="True" Font-Names="Arial Narrow" Font-Size="Small" ForeColor="White" ToolTip="Consultar Notas Parciales Por Asignatura" />
             </td>
             <td colspan="2">
                 <asp:Label ID="Label22" runat="server" Text="Para consultar sus notas ingresar codigo estudiantil registrado en la plataforma"></asp:Label>
@@ -158,7 +158,7 @@
             <td class="auto-style6">&nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
             <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">Menu Principal</asp:LinkButton>
+                <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click" ToolTip="Regresar al menu principal">Menu Principal</asp:LinkButton>
             </td>
         </tr>
     </table>

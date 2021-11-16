@@ -39,6 +39,26 @@
         .auto-style25 {
             width: 137px;
         }
+        .auto-style26 {
+            width: 142px;
+            height: 85px;
+        }
+        .auto-style27 {
+            width: 196px;
+            height: 85px;
+        }
+        .auto-style28 {
+            width: 50px;
+            height: 85px;
+        }
+        .auto-style29 {
+            width: 137px;
+            height: 85px;
+        }
+        .auto-style30 {
+            width: 355px;
+            height: 85px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -126,15 +146,22 @@
             <td class="auto-style23">&nbsp;</td>
         </tr>
         <tr>
-            <td class="auto-style7">
+            <td class="auto-style26">
                 <asp:Label ID="Label6" runat="server" Font-Names="Arial Narrow" Text="Codigo"></asp:Label>
             </td>
-            <td class="auto-style5">
-                <asp:TextBox ID="tbxCodigoInfoPer" runat="server" Enabled="False" Width="98%"></asp:TextBox>
+            <td class="auto-style27">
+                <asp:TextBox ID="tbxCodigoInfoPer" runat="server" Width="98%"></asp:TextBox>
+                <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Label ID="Label14" runat="server" Font-Names="Arial" Font-Size="Small" Text="Ingresar Codigo"></asp:Label>
+                <br />
+                <br />
+&nbsp;&nbsp;
+                <asp:Button ID="Button1" runat="server" BackColor="#6600CC" Font-Bold="True" Font-Names="Arial" ForeColor="White" Height="48px" Text="Consultar Informacion" ToolTip="Para visualizar Informacion" Width="166px" />
             </td>
-            <td class="auto-style9">&nbsp;</td>
-            <td class="auto-style25">&nbsp;</td>
-            <td class="auto-style23">&nbsp;</td>
+            <td class="auto-style28"></td>
+            <td class="auto-style29"></td>
+            <td class="auto-style30"></td>
         </tr>
         <tr>
             <td class="auto-style7">
