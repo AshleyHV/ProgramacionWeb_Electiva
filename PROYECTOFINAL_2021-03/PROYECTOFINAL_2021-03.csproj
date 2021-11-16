@@ -117,6 +117,16 @@
     <Content Include="BOOTSTRAP\js\bootstrap.min.js" />
     <Content Include="BOOTSTRAP\popper.min.js" />
     <Content Include="IMAGENES\login.png" />
+    <Content Include="PENSUM UAO\IngElectronica.aspx" />
+    <Content Include="PENSUM UAO\IngIndustrial.aspx" />
+    <Content Include="PENSUM UAO\IngInformatica.aspx" />
+    <Content Include="PENSUM UAO\IngMecatronica.aspx" />
+    <Content Include="PENSUM UAO\IngMultimedia.aspx" />
+    <Content Include="PENSUM UAO\pensumMecatronica_page-0001.jpg" />
+    <Content Include="PENSUM UAO\PlanDeEstudioIngElectronicayTelecominicaciones.jpg" />
+    <Content Include="PENSUM UAO\PlanDeEstudioIngIndustrial1.jpg" />
+    <Content Include="PENSUM UAO\PlanDeEstudioIngInformatica-1.jpg" />
+    <Content Include="PENSUM UAO\PlanDeEstudioIngMultimedia2.jpg" />
     <Content Include="PRINCIPAL\Docente.aspx" />
     <Content Include="PRINCIPAL\Estudiante.aspx" />
     <Content Include="Web.config" />
@@ -191,6 +201,41 @@
     </Compile>
     <Compile Include="PAGINA MAESTRA\Teacher.Master.designer.cs">
       <DependentUpon>Teacher.Master</DependentUpon>
+    </Compile>
+    <Compile Include="PENSUM UAO\IngElectronica.aspx.cs">
+      <DependentUpon>IngElectronica.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PENSUM UAO\IngElectronica.aspx.designer.cs">
+      <DependentUpon>IngElectronica.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PENSUM UAO\IngIndustrial.aspx.cs">
+      <DependentUpon>IngIndustrial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PENSUM UAO\IngIndustrial.aspx.designer.cs">
+      <DependentUpon>IngIndustrial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PENSUM UAO\IngInformatica.aspx.cs">
+      <DependentUpon>IngInformatica.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PENSUM UAO\IngInformatica.aspx.designer.cs">
+      <DependentUpon>IngInformatica.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PENSUM UAO\IngMecatronica.aspx.cs">
+      <DependentUpon>IngMecatronica.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PENSUM UAO\IngMecatronica.aspx.designer.cs">
+      <DependentUpon>IngMecatronica.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PENSUM UAO\IngMultimedia.aspx.cs">
+      <DependentUpon>IngMultimedia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PENSUM UAO\IngMultimedia.aspx.designer.cs">
+      <DependentUpon>IngMultimedia.aspx</DependentUpon>
     </Compile>
     <Compile Include="PRINCIPAL\Docente.aspx.cs">
       <DependentUpon>Docente.aspx</DependentUpon>

@@ -13,5 +13,30 @@ namespace PROYECTOFINAL_2021_03.MENU_ESTUDIANTE
         {
 
         }
+
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("../PENSUM UAO/IngInformatica.aspx");
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("../PENSUM UAO/IngMultimedia.aspx");
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("../PENSUM UAO/IngElectronica.aspx");
+        }
+
+        protected void Button4_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("../PENSUM UAO/IngMecatronica.aspx");
+        }
+
+        protected void Button5_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("../PENSUM UAO/IngIndustrial.aspx");
+        }
     }
 }

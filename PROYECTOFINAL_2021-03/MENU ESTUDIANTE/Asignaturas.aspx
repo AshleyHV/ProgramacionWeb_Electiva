@@ -50,7 +50,7 @@
         </tr>
         <tr>
             <td class="auto-style2">
-                <asp:TextBox ID="TextBox4" runat="server" BackColor="Black" BorderStyle="Solid" ForeColor="White" Height="50px" Width="170px" Enabled="False"></asp:TextBox>
+                <asp:TextBox ID="TextBox4" runat="server" BackColor="Black" BorderStyle="Solid" ForeColor="White" Height="50px" Width="170px" Enabled="False" Font-Bold="True" Font-Names="Arial Narrow" Font-Size="Small" TextMode="MultiLine">Matematicas Fundamentales</asp:TextBox>
             </td>
             <td class="auto-style6">
                 <asp:TextBox ID="TextBox5" runat="server" Height="40px" Width="100px" Enabled="False"></asp:TextBox>
@@ -64,7 +64,7 @@
         </tr>
         <tr>
             <td class="auto-style2">
-                <asp:TextBox ID="TextBox3" runat="server" BackColor="Black" BorderStyle="Solid" ForeColor="White" Height="50px" Width="170px" Enabled="False"></asp:TextBox>
+                <asp:TextBox ID="TextBox3" runat="server" BackColor="Black" BorderStyle="Solid" ForeColor="White" Height="50px" Width="170px" Enabled="False" Font-Bold="True" Font-Names="Arial Narrow" Font-Size="Small" TextMode="MultiLine">Electronica</asp:TextBox>
             </td>
             <td class="auto-style6">
                 <asp:TextBox ID="TextBox8" runat="server" Height="40px" Width="100px" Enabled="False"></asp:TextBox>
@@ -78,7 +78,7 @@
         </tr>
         <tr>
             <td class="auto-style2">
-                <asp:TextBox ID="TextBox2" runat="server" BackColor="Black" BorderStyle="Solid" ForeColor="White" Height="50px" Width="170px" Enabled="False"></asp:TextBox>
+                <asp:TextBox ID="TextBox2" runat="server" BackColor="Black" BorderStyle="Solid" ForeColor="White" Height="50px" Width="170px" Enabled="False" Font-Bold="True" Font-Names="Arial Narrow" Font-Size="Small" TextMode="MultiLine">Campos Electromagneticos</asp:TextBox>
             </td>
             <td class="auto-style6">
                 <asp:TextBox ID="TextBox11" runat="server" Height="40px" Width="100px" Enabled="False"></asp:TextBox>
@@ -92,7 +92,7 @@
         </tr>
         <tr>
             <td class="auto-style2">
-                <asp:TextBox ID="TextBox17" runat="server" BackColor="Black" BorderStyle="Solid" Enabled="False" ForeColor="White" Height="50px" Width="170px"></asp:TextBox>
+                <asp:TextBox ID="TextBox17" runat="server" BackColor="Black" BorderStyle="Solid" Enabled="False" ForeColor="White" Height="50px" Width="170px" Font-Bold="True" Font-Names="Arial Narrow" Font-Size="Small" TextMode="MultiLine">Ingles V</asp:TextBox>
             </td>
             <td class="auto-style6">
                 <asp:TextBox ID="TextBox14" runat="server" Height="40px" Width="100px" Enabled="False"></asp:TextBox>
@@ -123,18 +123,21 @@
             <td class="auto-style2">
                 <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:Label ID="Label20" runat="server" Text="Codigo Estudiantil"></asp:Label>
+                <asp:Label ID="Label20" runat="server" Text="Codigo Estudiantil" Font-Bold="True" Font-Names="Arial Narrow"></asp:Label>
             </td>
             <td class="auto-style6">&nbsp;<br />
                 <asp:TextBox ID="TextBox18" runat="server" Height="26px"></asp:TextBox>
             </td>
             <td class="auto-style6">&nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
-            <td>&nbsp;</td>
+            <td>&nbsp;<asp:Button ID="Button3" runat="server" BackColor="White" BorderColor="White" BorderStyle="Solid" Enabled="False" Font-Bold="True" Font-Names="Arial Narrow" Font-Size="Medium" Text="Promedio Semestral:" />
+&nbsp;<asp:TextBox ID="TextBox22" runat="server" Height="27px"></asp:TextBox>
+&nbsp;<asp:Button ID="Button2" runat="server" BackColor="Black" BorderStyle="Solid" Font-Bold="True" Font-Names="Arial Narrow" Font-Size="Medium" ForeColor="White" Height="34px" Text="Calcular Promedio" Width="255px" />
+            </td>
         </tr>
         <tr>
             <td class="auto-style2">
-                <asp:Button ID="Button1" runat="server" Height="37px" Text="Consultar Notas" Width="205px" />
+                <asp:Button ID="Button1" runat="server" Height="37px" Text="Consultar Notas" Width="205px" BackColor="Black" BorderStyle="Solid" Font-Bold="True" Font-Names="Arial Narrow" Font-Size="Small" ForeColor="White" />
             </td>
             <td class="auto-style6">&nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
