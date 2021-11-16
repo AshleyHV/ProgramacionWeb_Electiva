@@ -18,5 +18,10 @@ namespace PROYECTOFINAL_2021_03.MENU_ESTUDIANTE
         {
 
         }
+
+        protected void LinkButton1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("../PRINCIPAL/Estudiante.aspx");
+        }
     }
 }

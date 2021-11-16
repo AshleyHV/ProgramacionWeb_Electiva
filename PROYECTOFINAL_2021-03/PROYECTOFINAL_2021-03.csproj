@@ -75,6 +75,7 @@
     <Content Include="IMAGENES\CampusHD.jpg" />
     <Content Include="IMAGENES\CampusLabs.jpg" />
     <Content Include="IMAGENES\InformacionPersonal.jpg" />
+    <Content Include="IMAGENES\LOGIN DOCENTE.png" />
     <Content Include="IMAGENES\Login_Abajo.png" />
     <Content Include="IMAGENES\Login_Arriba.png" />
     <Content Include="IMAGENES\LogoPortal.png" />
@@ -87,9 +88,14 @@
     <Content Include="IMAGENES\UAO BARRA SUPERIOR.png" />
     <Content Include="IMAGENES\UAO DOCENTE BARRA INFERIOR.png" />
     <Content Include="IMAGENES\UAO LOGO.png" />
+    <Content Include="LOGIN\LoginDocente.aspx" />
     <Content Include="LOGIN\LoginM.aspx" />
     <Content Include="LOGIN\OlvidoContraseñaM.aspx" />
     <Content Include="LOGIN\RegistrarseM.aspx" />
+    <Content Include="MENU DOCENTE\AsignaturasDocente.aspx" />
+    <Content Include="MENU DOCENTE\CalificacionesDocente.aspx" />
+    <Content Include="MENU DOCENTE\HorarioDocente.aspx" />
+    <Content Include="MENU DOCENTE\InformacionPersonalDocente.aspx" />
     <Content Include="MENU ESTUDIANTE\Asignaturas.aspx" />
     <Content Include="MENU ESTUDIANTE\Horario.aspx" />
     <Content Include="MENU ESTUDIANTE\InformacionPersonal.aspx" />
@@ -117,6 +123,7 @@
     <Content Include="BOOTSTRAP\js\bootstrap.min.js" />
     <Content Include="BOOTSTRAP\popper.min.js" />
     <Content Include="IMAGENES\login.png" />
+    <Content Include="PENSUM UAO\Botones.png" />
     <Content Include="PENSUM UAO\IngElectronica.aspx" />
     <Content Include="PENSUM UAO\IngIndustrial.aspx" />
     <Content Include="PENSUM UAO\IngInformatica.aspx" />
@@ -132,6 +139,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LOGIN\LoginDocente.aspx.cs">
+      <DependentUpon>LoginDocente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LOGIN\LoginDocente.aspx.designer.cs">
+      <DependentUpon>LoginDocente.aspx</DependentUpon>
+    </Compile>
     <Compile Include="LOGIN\LoginM.aspx.cs">
       <DependentUpon>LoginM.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -152,6 +166,34 @@
     </Compile>
     <Compile Include="LOGIN\RegistrarseM.aspx.designer.cs">
       <DependentUpon>RegistrarseM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MENU DOCENTE\AsignaturasDocente.aspx.cs">
+      <DependentUpon>AsignaturasDocente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MENU DOCENTE\AsignaturasDocente.aspx.designer.cs">
+      <DependentUpon>AsignaturasDocente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MENU DOCENTE\CalificacionesDocente.aspx.cs">
+      <DependentUpon>CalificacionesDocente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MENU DOCENTE\CalificacionesDocente.aspx.designer.cs">
+      <DependentUpon>CalificacionesDocente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MENU DOCENTE\HorarioDocente.aspx.cs">
+      <DependentUpon>HorarioDocente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MENU DOCENTE\HorarioDocente.aspx.designer.cs">
+      <DependentUpon>HorarioDocente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MENU DOCENTE\InformacionPersonalDocente.aspx.cs">
+      <DependentUpon>InformacionPersonalDocente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MENU DOCENTE\InformacionPersonalDocente.aspx.designer.cs">
+      <DependentUpon>InformacionPersonalDocente.aspx</DependentUpon>
     </Compile>
     <Compile Include="MENU ESTUDIANTE\Asignaturas.aspx.cs">
       <DependentUpon>Asignaturas.aspx</DependentUpon>
