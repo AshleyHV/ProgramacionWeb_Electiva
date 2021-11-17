@@ -54,7 +54,7 @@
         </tr>
         <tr>
             <td class="auto-style2">
-                <asp:TextBox ID="TextBox4" runat="server" BackColor="Black" BorderStyle="Solid" ForeColor="White" Height="50px" Width="170px" Enabled="False" Font-Bold="True" Font-Names="Arial Narrow" Font-Size="Small" TextMode="MultiLine">Matematicas Fundamentales</asp:TextBox>
+                <asp:TextBox ID="tbxAsig1" runat="server" BackColor="Black" BorderStyle="Solid" ForeColor="White" Height="50px" Width="170px" Enabled="False" Font-Bold="True" Font-Names="Arial Narrow" Font-Size="Small" TextMode="MultiLine">Matematicas Fundamentales</asp:TextBox>
             </td>
             <td class="auto-style6">
                 <asp:TextBox ID="tbxAsig1Nota1" runat="server" Height="40px" Width="100px" Enabled="False"></asp:TextBox>
@@ -71,7 +71,7 @@
         </tr>
         <tr>
             <td class="auto-style2">
-                <asp:TextBox ID="TextBox3" runat="server" BackColor="Black" BorderStyle="Solid" ForeColor="White" Height="50px" Width="170px" Enabled="False" Font-Bold="True" Font-Names="Arial Narrow" Font-Size="Small" TextMode="MultiLine">Electronica</asp:TextBox>
+                <asp:TextBox ID="tbxAsig2" runat="server" BackColor="Black" BorderStyle="Solid" ForeColor="White" Height="50px" Width="170px" Enabled="False" Font-Bold="True" Font-Names="Arial Narrow" Font-Size="Small" TextMode="MultiLine">Electronica</asp:TextBox>
             </td>
             <td class="auto-style6">
                 <asp:TextBox ID="tbxAsig2Nota1" runat="server" Height="40px" Width="100px" Enabled="False"></asp:TextBox>
@@ -88,7 +88,7 @@
         </tr>
         <tr>
             <td class="auto-style2">
-                <asp:TextBox ID="TextBox2" runat="server" BackColor="Black" BorderStyle="Solid" ForeColor="White" Height="50px" Width="170px" Enabled="False" Font-Bold="True" Font-Names="Arial Narrow" Font-Size="Small" TextMode="MultiLine">Campos Electromagneticos</asp:TextBox>
+                <asp:TextBox ID="tbxAsig3" runat="server" BackColor="Black" BorderStyle="Solid" ForeColor="White" Height="50px" Width="170px" Enabled="False" Font-Bold="True" Font-Names="Arial Narrow" Font-Size="Small" TextMode="MultiLine">Campos Electromagneticos</asp:TextBox>
             </td>
             <td class="auto-style6">
                 <asp:TextBox ID="tbxAsig3Nota1" runat="server" Height="40px" Width="100px" Enabled="False"></asp:TextBox>
@@ -105,7 +105,7 @@
         </tr>
         <tr>
             <td class="auto-style2">
-                <asp:TextBox ID="TextBox17" runat="server" BackColor="Black" BorderStyle="Solid" Enabled="False" ForeColor="White" Height="50px" Width="170px" Font-Bold="True" Font-Names="Arial Narrow" Font-Size="Small" TextMode="MultiLine">Ingles V</asp:TextBox>
+                <asp:TextBox ID="tbxAsig4" runat="server" BackColor="Black" BorderStyle="Solid" Enabled="False" ForeColor="White" Height="50px" Width="170px" Font-Bold="True" Font-Names="Arial Narrow" Font-Size="Small" TextMode="MultiLine">Ingles V</asp:TextBox>
             </td>
             <td class="auto-style6">
                 <asp:TextBox ID="tbxAsig4Nota1" runat="server" Height="40px" Width="100px" Enabled="False"></asp:TextBox>
@@ -138,11 +138,12 @@
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:Label ID="Label20" runat="server" Text="Codigo Estudiantil" Font-Bold="True" Font-Names="Arial Narrow"></asp:Label>
             </td>
-            <td colspan="2">&nbsp;<asp:TextBox ID="TextBox18" runat="server" Height="26px" Width="177px" ToolTip="Campo para codigo Estudiantil"></asp:TextBox>
+            <td colspan="2">&nbsp;<asp:TextBox ID="tbxCodigoMenuAsignatura" runat="server" Height="26px" Width="177px" ToolTip="Campo para codigo Estudiantil"></asp:TextBox>
                 <br />
             </td>
-            <td class="auto-style6">&nbsp;</td>
-            <td class="auto-style6">&nbsp;</td>
+            <td colspan="2">
+                <asp:TextBox ID="tbxErrorAsignaturas" runat="server" BorderStyle="None" Height="20px" Width="248px"></asp:TextBox>
+            </td>
             <td>&nbsp;<asp:Button ID="Button3" runat="server" BackColor="White" BorderColor="White" BorderStyle="Solid" Enabled="False" Font-Bold="True" Font-Names="Arial Narrow" Font-Size="Medium" Text="Promedio Semestral:" />
 &nbsp;<asp:TextBox ID="TextBox22" runat="server" Height="27px"></asp:TextBox>
 &nbsp;<asp:Button ID="Button2" runat="server" BackColor="Black" BorderStyle="Solid" Font-Bold="True" Font-Names="Arial Narrow" Font-Size="Medium" ForeColor="White" Height="34px" Text="Calcular Promedio" Width="255px" ToolTip="Calcular el promedio Semestral" />
@@ -150,7 +151,7 @@
         </tr>
         <tr>
             <td class="auto-style2">
-                <asp:Button ID="Button1" runat="server" Height="37px" Text="Consultar Notas" Width="205px" BackColor="Black" BorderStyle="Solid" Font-Bold="True" Font-Names="Arial Narrow" Font-Size="Small" ForeColor="White" ToolTip="Consultar Notas Parciales Por Asignatura" />
+                <asp:Button ID="Button1" runat="server" Height="37px" Text="Consultar Notas" Width="205px" BackColor="Black" BorderStyle="Solid" Font-Bold="True" Font-Names="Arial Narrow" Font-Size="Small" ForeColor="White" ToolTip="Consultar Notas Parciales Por Asignatura" OnClick="Button1_Click" />
             </td>
             <td colspan="2">
                 <asp:Label ID="Label22" runat="server" Text="Para consultar sus notas ingresar codigo estudiantil registrado en la plataforma"></asp:Label>

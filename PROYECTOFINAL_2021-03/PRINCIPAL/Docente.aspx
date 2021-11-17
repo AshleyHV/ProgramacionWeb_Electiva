@@ -5,7 +5,7 @@
     <table class="auto-style1">
         <tr>
             <td colspan="2">
-                <asp:Menu ID="Menu1" runat="server" BackColor="#000066" DynamicHorizontalOffset="2" Font-Names="Arial Rounded MT Bold" Font-Size="Small" ForeColor="White" Orientation="Horizontal" RenderingMode="Table" StaticSubMenuIndent="10px" Width="100%" Font-Bold="True">
+                <asp:Menu ID="Menu1" runat="server" BackColor="#000066" DynamicHorizontalOffset="2" Font-Names="Arial Rounded MT Bold" Font-Size="Medium" ForeColor="White" Orientation="Horizontal" RenderingMode="Table" StaticSubMenuIndent="10px" Width="100%" Font-Bold="True" Height="30px">
                     <DynamicHoverStyle BackColor="#990000" ForeColor="White" />
                     <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
                     <DynamicMenuStyle BackColor="#FFFBD6" />

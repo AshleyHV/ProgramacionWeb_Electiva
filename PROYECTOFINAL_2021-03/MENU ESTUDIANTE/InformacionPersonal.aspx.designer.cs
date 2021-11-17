@@ -42,6 +42,33 @@ namespace PROYECTOFINAL_2021_03.MENU_ESTUDIANTE
         protected global::System.Web.UI.WebControls.Label Label13;
 
         /// <summary>
+        /// Control Label11.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label11;
+
+        /// <summary>
+        /// Control tbxPeridoAcademico.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tbxPeridoAcademico;
+
+        /// <summary>
+        /// Control Image3.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image Image3;
+
+        /// <summary>
         /// Control Label2.
         /// </summary>
         /// <remarks>
@@ -60,31 +87,13 @@ namespace PROYECTOFINAL_2021_03.MENU_ESTUDIANTE
         protected global::System.Web.UI.WebControls.TextBox tbxPimerNombre;
 
         /// <summary>
-        /// Control Label9.
+        /// Control tbxCorreoInfoPer.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label9;
-
-        /// <summary>
-        /// Control tbxSemestreActual.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tbxSemestreActual;
-
-        /// <summary>
-        /// Control Image3.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image3;
+        protected global::System.Web.UI.WebControls.TextBox tbxCorreoInfoPer;
 
         /// <summary>
         /// Control Label4.
@@ -105,6 +114,24 @@ namespace PROYECTOFINAL_2021_03.MENU_ESTUDIANTE
         protected global::System.Web.UI.WebControls.TextBox tbxSegundoNombre;
 
         /// <summary>
+        /// Control Label9.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label9;
+
+        /// <summary>
+        /// Control tbxSemestreActual.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tbxSemestreActual;
+
+        /// <summary>
         /// Control Label3.
         /// </summary>
         /// <remarks>
@@ -123,22 +150,22 @@ namespace PROYECTOFINAL_2021_03.MENU_ESTUDIANTE
         protected global::System.Web.UI.WebControls.TextBox tbxPrimerApellido;
 
         /// <summary>
-        /// Control tbxCorreoInfoPer.
+        /// Control Label7.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label tbxCorreoInfoPer;
+        protected global::System.Web.UI.WebControls.Label Label7;
 
         /// <summary>
-        /// Control TextBox2.
+        /// Control tbxTelefonoInfoPer.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.TextBox tbxTelefonoInfoPer;
 
         /// <summary>
         /// Control Label5.
@@ -168,31 +195,13 @@ namespace PROYECTOFINAL_2021_03.MENU_ESTUDIANTE
         protected global::System.Web.UI.WebControls.Label Label10;
 
         /// <summary>
-        /// Control ContraseñaInfoPer.
+        /// Control tbxDireccionInfoPer.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox ContraseñaInfoPer;
-
-        /// <summary>
-        /// Control Label6.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label6;
-
-        /// <summary>
-        /// Control tbxCodigoInfoPer.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tbxCodigoInfoPer;
+        protected global::System.Web.UI.WebControls.TextBox tbxDireccionInfoPer;
 
         /// <summary>
         /// Control Label14.
@@ -204,6 +213,15 @@ namespace PROYECTOFINAL_2021_03.MENU_ESTUDIANTE
         protected global::System.Web.UI.WebControls.Label Label14;
 
         /// <summary>
+        /// Control tbxCodigoInfoPer.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tbxCodigoInfoPer;
+
+        /// <summary>
         /// Control Button1.
         /// </summary>
         /// <remarks>
@@ -213,39 +231,12 @@ namespace PROYECTOFINAL_2021_03.MENU_ESTUDIANTE
         protected global::System.Web.UI.WebControls.Button Button1;
 
         /// <summary>
-        /// Control Label7.
+        /// Control tbxErrorInformacionPersonal.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label7;
-
-        /// <summary>
-        /// Control tbxTelefonoInfoPer.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tbxTelefonoInfoPer;
-
-        /// <summary>
-        /// Control Label11.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label11;
-
-        /// <summary>
-        /// Control tbxPeridoAcademico.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tbxPeridoAcademico;
+        protected global::System.Web.UI.WebControls.TextBox tbxErrorInformacionPersonal;
     }
 }

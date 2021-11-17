@@ -87,13 +87,13 @@ namespace PROYECTOFINAL_2021_03.MENU_ESTUDIANTE
         protected global::System.Web.UI.WebControls.Label Label21;
 
         /// <summary>
-        /// Control TextBox4.
+        /// Control tbxAsig1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox4;
+        protected global::System.Web.UI.WebControls.TextBox tbxAsig1;
 
         /// <summary>
         /// Control tbxAsig1Nota1.
@@ -132,13 +132,13 @@ namespace PROYECTOFINAL_2021_03.MENU_ESTUDIANTE
         protected global::System.Web.UI.WebControls.TextBox TextBox19;
 
         /// <summary>
-        /// Control TextBox3.
+        /// Control tbxAsig2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox3;
+        protected global::System.Web.UI.WebControls.TextBox tbxAsig2;
 
         /// <summary>
         /// Control tbxAsig2Nota1.
@@ -177,13 +177,13 @@ namespace PROYECTOFINAL_2021_03.MENU_ESTUDIANTE
         protected global::System.Web.UI.WebControls.TextBox TextBox21;
 
         /// <summary>
-        /// Control TextBox2.
+        /// Control tbxAsig3.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.TextBox tbxAsig3;
 
         /// <summary>
         /// Control tbxAsig3Nota1.
@@ -222,13 +222,13 @@ namespace PROYECTOFINAL_2021_03.MENU_ESTUDIANTE
         protected global::System.Web.UI.WebControls.TextBox TextBox20;
 
         /// <summary>
-        /// Control TextBox17.
+        /// Control tbxAsig4.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox17;
+        protected global::System.Web.UI.WebControls.TextBox tbxAsig4;
 
         /// <summary>
         /// Control tbxAsig4Nota1.
@@ -276,13 +276,22 @@ namespace PROYECTOFINAL_2021_03.MENU_ESTUDIANTE
         protected global::System.Web.UI.WebControls.Label Label20;
 
         /// <summary>
-        /// Control TextBox18.
+        /// Control tbxCodigoMenuAsignatura.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox18;
+        protected global::System.Web.UI.WebControls.TextBox tbxCodigoMenuAsignatura;
+
+        /// <summary>
+        /// Control tbxErrorAsignaturas.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tbxErrorAsignaturas;
 
         /// <summary>
         /// Control Button3.

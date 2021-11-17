@@ -81,20 +81,33 @@
         </tr>
         <tr>
             <td class="auto-style8">
-                <asp:Label ID="Label2" runat="server" Font-Names="Arial Narrow" Text="Primer Nombre"></asp:Label>
+                <asp:Label ID="Label11" runat="server" Font-Names="Arial Narrow" Text="Perido Academico"></asp:Label>
             </td>
             <td class="auto-style6">
-                <asp:TextBox ID="tbxPimerNombre" runat="server" Enabled="False" Width="98%"></asp:TextBox>
+                <asp:TextBox ID="tbxPeridoAcademico" runat="server" Enabled="False" Width="30%">2021-03</asp:TextBox>
             </td>
             <td class="auto-style10">&nbsp;</td>
             <td class="auto-style24">
-                <asp:Label ID="Label9" runat="server" Font-Names="Arial Narrow" Text="Semestre Actual"></asp:Label>
-            </td>
+                &nbsp;</td>
             <td class="auto-style22">
-                <asp:TextBox ID="tbxSemestreActual" runat="server" Enabled="False" Width="60%"></asp:TextBox>
-            </td>
+                &nbsp;</td>
             <td rowspan="7">
                 <asp:Image ID="Image3" runat="server" ImageUrl="~/IMAGENES/InformacionPersonal.jpg" />
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style7">
+                <asp:Label ID="Label2" runat="server" Font-Names="Arial Narrow" Text="Primer Nombre"></asp:Label>
+            </td>
+            <td class="auto-style5">
+                <asp:TextBox ID="tbxPimerNombre" runat="server" Enabled="False" Width="98%"></asp:TextBox>
+            </td>
+            <td class="auto-style9">&nbsp;</td>
+            <td class="auto-style25">
+                <asp:Label runat="server" Font-Names="Arial Narrow" Text="Correo"></asp:Label>
+            </td>
+            <td class="auto-style23">
+                <asp:TextBox ID="tbxCorreoInfoPer" runat="server" Enabled="False" Width="60%"></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -105,8 +118,12 @@
                 <asp:TextBox ID="tbxSegundoNombre" runat="server" Enabled="False" Width="98%"></asp:TextBox>
             </td>
             <td class="auto-style9">&nbsp;</td>
-            <td class="auto-style25">&nbsp;</td>
-            <td class="auto-style23">&nbsp;</td>
+            <td class="auto-style25">
+                <asp:Label ID="Label9" runat="server" Font-Names="Arial Narrow" Text="Semestre Actual"></asp:Label>
+            </td>
+            <td class="auto-style23">
+                <asp:TextBox ID="tbxSemestreActual" runat="server" Enabled="False" Width="60%"></asp:TextBox>
+            </td>
         </tr>
         <tr>
             <td class="auto-style7">
@@ -117,10 +134,10 @@
             </td>
             <td class="auto-style9">&nbsp;</td>
             <td class="auto-style25">
-                <asp:Label ID="tbxCorreoInfoPer" runat="server" Font-Names="Arial Narrow" Text="Correo"></asp:Label>
+                <asp:Label ID="Label7" runat="server" Font-Names="Arial Narrow" Text="Telefono"></asp:Label>
             </td>
             <td class="auto-style23">
-                <asp:TextBox ID="TextBox2" runat="server" Enabled="False" Width="60%"></asp:TextBox>
+                <asp:TextBox ID="tbxTelefonoInfoPer" runat="server" Enabled="False" Width="60%"></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -132,51 +149,40 @@
             </td>
             <td class="auto-style9">&nbsp;</td>
             <td class="auto-style25">
-                <asp:Label ID="Label10" runat="server" Font-Names="Arial Narrow" Text="Contraseña"></asp:Label>
+                <asp:Label ID="Label10" runat="server" Font-Names="Arial Narrow" Text="Direccion"></asp:Label>
             </td>
             <td class="auto-style23">
-                <asp:TextBox ID="ContraseñaInfoPer" runat="server" Enabled="False" Width="60%"></asp:TextBox>
+                <asp:TextBox ID="tbxDireccionInfoPer" runat="server" Enabled="False" Width="60%"></asp:TextBox>
             </td>
-        </tr>
-        <tr>
-            <td class="auto-style7">&nbsp;</td>
-            <td class="auto-style5">&nbsp;</td>
-            <td class="auto-style9">&nbsp;</td>
-            <td class="auto-style25">&nbsp;</td>
-            <td class="auto-style23">&nbsp;</td>
         </tr>
         <tr>
             <td class="auto-style26">
-                <asp:Label ID="Label6" runat="server" Font-Names="Arial Narrow" Text="Codigo"></asp:Label>
-            </td>
+                &nbsp;</td>
             <td class="auto-style27">
-                <asp:TextBox ID="tbxCodigoInfoPer" runat="server" Width="98%"></asp:TextBox>
-                <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:Label ID="Label14" runat="server" Font-Names="Arial" Font-Size="Small" Text="Ingresar Codigo"></asp:Label>
+                <br />
+                <asp:TextBox ID="tbxCodigoInfoPer" runat="server" Width="98%"></asp:TextBox>
                 <br />
                 <br />
 &nbsp;&nbsp;
-                <asp:Button ID="Button1" runat="server" BackColor="#6600CC" Font-Bold="True" Font-Names="Arial" ForeColor="White" Height="48px" Text="Consultar Informacion" ToolTip="Para visualizar Informacion" Width="166px" />
+                <asp:Button ID="Button1" runat="server" BackColor="#6600CC" Font-Bold="True" Font-Names="Arial" ForeColor="White" Height="48px" Text="Consultar Informacion" ToolTip="Para visualizar Informacion" Width="166px" OnClick="Button1_Click" />
             </td>
             <td class="auto-style28"></td>
-            <td class="auto-style29"></td>
+            <td class="auto-style29">&nbsp;</td>
             <td class="auto-style30"></td>
         </tr>
         <tr>
             <td class="auto-style7">
-                <asp:Label ID="Label7" runat="server" Font-Names="Arial Narrow" Text="Telefono"></asp:Label>
-            </td>
+                &nbsp;</td>
             <td class="auto-style5">
-                <asp:TextBox ID="tbxTelefonoInfoPer" runat="server" Enabled="False" Width="98%"></asp:TextBox>
+                <asp:TextBox ID="tbxErrorInformacionPersonal" runat="server" BorderStyle="None" Height="20px" Width="185px"></asp:TextBox>
             </td>
             <td class="auto-style9">&nbsp;</td>
             <td class="auto-style25">
-                <asp:Label ID="Label11" runat="server" Font-Names="Arial Narrow" Text="Perido Academico"></asp:Label>
-            </td>
+                &nbsp;</td>
             <td class="auto-style23">
-                <asp:TextBox ID="tbxPeridoAcademico" runat="server" Enabled="False" Width="60%"></asp:TextBox>
-            </td>
+                &nbsp;</td>
         </tr>
     </table>
 </asp:Content>
