@@ -98,7 +98,7 @@
                                         <td class="auto-style8">&nbsp;</td>
                                         <td>
                                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                            <asp:Button ID="btEnviarDatos" runat="server" BackColor="#000066" Font-Bold="True" ForeColor="White" Height="29px" Text="Enviar Datos" Width="161px" OnClick="btEnviarDatos_Click" />
+                                            <asp:Button ID="btEnviarDatos" runat="server" BackColor="#000066" Font-Bold="True" ForeColor="White" Height="29px" Text="Enviar Datos" Width="161px" OnClick="btEnviarDatos_Click" ToolTip="Confirmar Registro" />
                                         </td>
                                         <td class="auto-style8">&nbsp;</td>
                                     </tr>

@@ -10,6 +10,9 @@
         .auto-style4 {
             width: 126px;
         }
+        .auto-style5 {
+            width: 1200px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -66,6 +69,14 @@
         &nbsp;</p>
     <p>
         &nbsp;</p>
-    <p>
-        &nbsp;</p>
+    <table class="auto-style1">
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td class="auto-style5">&nbsp;</td>
+            <td>
+                <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">Menu Principal</asp:LinkButton>
+            </td>
+        </tr>
+    </table>
 </asp:Content>

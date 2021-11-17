@@ -81,10 +81,10 @@
         </tr>
         <tr>
             <td class="auto-style8">
-                <asp:Label ID="Label11" runat="server" Font-Names="Arial Narrow" Text="Perido Academico"></asp:Label>
+                <asp:Label ID="Label11" runat="server" Font-Names="Arial Narrow" Text="Perido Academico" Font-Bold="True"></asp:Label>
             </td>
             <td class="auto-style6">
-                <asp:TextBox ID="tbxPeridoAcademico" runat="server" Enabled="False" Width="30%">2021-03</asp:TextBox>
+                <asp:TextBox ID="tbxPeridoAcademico" runat="server" Enabled="False" Width="33%" BackColor="Black" Font-Bold="True" Font-Names="Arial Black" ForeColor="White">2021-03</asp:TextBox>
             </td>
             <td class="auto-style10">&nbsp;</td>
             <td class="auto-style24">
@@ -97,14 +97,14 @@
         </tr>
         <tr>
             <td class="auto-style7">
-                <asp:Label ID="Label2" runat="server" Font-Names="Arial Narrow" Text="Primer Nombre"></asp:Label>
+                <asp:Label ID="Label2" runat="server" Font-Names="Arial Narrow" Text="Primer Nombre" Font-Bold="True"></asp:Label>
             </td>
             <td class="auto-style5">
                 <asp:TextBox ID="tbxPimerNombre" runat="server" Enabled="False" Width="98%"></asp:TextBox>
             </td>
             <td class="auto-style9">&nbsp;</td>
             <td class="auto-style25">
-                <asp:Label runat="server" Font-Names="Arial Narrow" Text="Correo"></asp:Label>
+                <asp:Label runat="server" Font-Names="Arial Narrow" Text="Correo" Font-Bold="True"></asp:Label>
             </td>
             <td class="auto-style23">
                 <asp:TextBox ID="tbxCorreoInfoPer" runat="server" Enabled="False" Width="60%"></asp:TextBox>
@@ -112,14 +112,14 @@
         </tr>
         <tr>
             <td class="auto-style7">
-                <asp:Label ID="Label4" runat="server" Font-Names="Arial Narrow" Text="Segundo Nombre"></asp:Label>
+                <asp:Label ID="Label4" runat="server" Font-Names="Arial Narrow" Text="Segundo Nombre" Font-Bold="True"></asp:Label>
             </td>
             <td class="auto-style5">
                 <asp:TextBox ID="tbxSegundoNombre" runat="server" Enabled="False" Width="98%"></asp:TextBox>
             </td>
             <td class="auto-style9">&nbsp;</td>
             <td class="auto-style25">
-                <asp:Label ID="Label9" runat="server" Font-Names="Arial Narrow" Text="Semestre Actual"></asp:Label>
+                <asp:Label ID="Label9" runat="server" Font-Names="Arial Narrow" Text="Semestre Actual" Font-Bold="True"></asp:Label>
             </td>
             <td class="auto-style23">
                 <asp:TextBox ID="tbxSemestreActual" runat="server" Enabled="False" Width="60%"></asp:TextBox>
@@ -127,14 +127,14 @@
         </tr>
         <tr>
             <td class="auto-style7">
-                <asp:Label ID="Label3" runat="server" Font-Names="Arial Narrow" Text="Primer Apellido"></asp:Label>
+                <asp:Label ID="Label3" runat="server" Font-Names="Arial Narrow" Text="Primer Apellido" Font-Bold="True"></asp:Label>
             </td>
             <td class="auto-style5">
                 <asp:TextBox ID="tbxPrimerApellido" runat="server" Enabled="False" Width="98%"></asp:TextBox>
             </td>
             <td class="auto-style9">&nbsp;</td>
             <td class="auto-style25">
-                <asp:Label ID="Label7" runat="server" Font-Names="Arial Narrow" Text="Telefono"></asp:Label>
+                <asp:Label ID="Label7" runat="server" Font-Names="Arial Narrow" Text="Telefono" Font-Bold="True"></asp:Label>
             </td>
             <td class="auto-style23">
                 <asp:TextBox ID="tbxTelefonoInfoPer" runat="server" Enabled="False" Width="60%"></asp:TextBox>
@@ -142,14 +142,14 @@
         </tr>
         <tr>
             <td class="auto-style7">
-                <asp:Label ID="Label5" runat="server" Font-Names="Arial Narrow" Text="Segundo Apellido"></asp:Label>
+                <asp:Label ID="Label5" runat="server" Font-Names="Arial Narrow" Text="Segundo Apellido" Font-Bold="True"></asp:Label>
             </td>
             <td class="auto-style5">
                 <asp:TextBox ID="tbxSegundoApellido" runat="server" Enabled="False" Width="98%"></asp:TextBox>
             </td>
             <td class="auto-style9">&nbsp;</td>
             <td class="auto-style25">
-                <asp:Label ID="Label10" runat="server" Font-Names="Arial Narrow" Text="Direccion"></asp:Label>
+                <asp:Label ID="Label10" runat="server" Font-Names="Arial Narrow" Text="Direccion" Font-Bold="True"></asp:Label>
             </td>
             <td class="auto-style23">
                 <asp:TextBox ID="tbxDireccionInfoPer" runat="server" Enabled="False" Width="60%"></asp:TextBox>
@@ -159,8 +159,8 @@
             <td class="auto-style26">
                 &nbsp;</td>
             <td class="auto-style27">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:Label ID="Label14" runat="server" Font-Names="Arial" Font-Size="Small" Text="Ingresar Codigo"></asp:Label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Label ID="Label14" runat="server" Font-Names="Arial" Font-Size="Small" Text="Ingresar Codigo" Font-Bold="True"></asp:Label>
                 <br />
                 <asp:TextBox ID="tbxCodigoInfoPer" runat="server" Width="98%"></asp:TextBox>
                 <br />
@@ -182,7 +182,9 @@
             <td class="auto-style25">
                 &nbsp;</td>
             <td class="auto-style23">
-                &nbsp;</td>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click" ToolTip="Regresar al menu principal">Menu Principal</asp:LinkButton>
+            </td>
         </tr>
     </table>
 </asp:Content>

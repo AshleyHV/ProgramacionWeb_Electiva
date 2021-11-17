@@ -38,5 +38,10 @@ namespace PROYECTOFINAL_2021_03.MENU_ESTUDIANTE
         {
             Response.Redirect("../PENSUM UAO/IngIndustrial.aspx");
         }
+
+        protected void LinkButton1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("../PRINCIPAL/Estudiante.aspx");
+        }
     }
 }

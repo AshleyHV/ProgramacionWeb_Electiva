@@ -73,7 +73,7 @@
                         <tr>
                             <td>&nbsp;</td>
                             <td class="auto-style7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <asp:LinkButton ID="LinkButton3" runat="server" OnClick="LinkButton3_Click">Portal Docente</asp:LinkButton>
+                                <asp:LinkButton ID="LinkButton3" runat="server" OnClick="LinkButton3_Click" ToolTip="Ingreso Docente">Portal Docente</asp:LinkButton>
                             </td>
                             <td>&nbsp;</td>
                         </tr>

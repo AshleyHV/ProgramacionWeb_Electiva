@@ -43,12 +43,12 @@
             <tr>
                 <td>&nbsp;</td>
                 <td class="auto-style7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:Label ID="Label13" runat="server" Font-Bold="False" Font-Names="Times New Roman" Font-Size="Small" ForeColor="Black" Height="22px" Text="Correo:*"></asp:Label>
+                    <asp:Label ID="Label13" runat="server" Font-Bold="False" Font-Names="Arial" Font-Size="Small" ForeColor="Black" Height="22px" Text="Correo:*"></asp:Label>
                     <br />
                     <asp:TextBox ID="tbxCorreoOlvido" runat="server" Height="16px" Width="98%"></asp:TextBox>
                     <br />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:Label ID="Label14" runat="server" Font-Bold="False" Font-Names="Times New Roman" Font-Size="Small" ForeColor="Black" Height="22px" Text="Ingrese su nueva contraseña"></asp:Label>
+                    <asp:Label ID="Label14" runat="server" Font-Bold="False" Font-Names="Arial" Font-Size="Small" ForeColor="Black" Height="22px" Text="Ingrese su nueva contraseña"></asp:Label>
                     <br />
                     <asp:TextBox ID="tbxContraseñaC" runat="server" Height="16px" Width="98%" ToolTip="Digitar nueva contraseña" OnTextChanged="tbxContraseñaC_TextChanged"></asp:TextBox>
                 </td>
@@ -58,7 +58,7 @@
                 <td>&nbsp;</td>
                 <td class="auto-style7">&nbsp;<asp:TextBox ID="tbxErrorCambioC" runat="server" BorderStyle="None" ForeColor="#CC0000" Width="100%" Font-Size="Small"></asp:TextBox>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:Button ID="btCambiarContraseña" runat="server" Text="ENVIAR" ToolTip="Actualizar Contraseña" Width="132px" OnClick="btCambiarContraseña_Click" />
+                    <asp:Button ID="btCambiarContraseña" runat="server" Text="ENVIAR" ToolTip="Actualizar Contraseña" Width="132px" OnClick="btCambiarContraseña_Click" BackColor="#000066" BorderColor="Blue" Font-Names="Arial Black" ForeColor="White" />
                 </td>
                 <td>&nbsp;</td>
             </tr>
