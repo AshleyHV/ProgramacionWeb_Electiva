@@ -62,6 +62,9 @@
                                 <br />
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 <asp:Button ID="Button1" runat="server" BackColor="#000066" BorderStyle="Solid" Font-Bold="True" Font-Names="Arial Rounded MT Bold" ForeColor="White" Height="38px" OnClick="Button1_Click" Text="INICIAR SESION" Width="177px" />
+                                <br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <asp:LinkButton ID="LinkButton1" runat="server" Font-Size="Small" OnClick="LinkButton1_Click">PORTAL ESTUDIANTE</asp:LinkButton>
                             </td>
                         </tr>
                     </table>

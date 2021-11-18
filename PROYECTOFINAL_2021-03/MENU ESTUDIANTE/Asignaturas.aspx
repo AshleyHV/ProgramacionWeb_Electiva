@@ -54,7 +54,7 @@
         </tr>
         <tr>
             <td class="auto-style2">
-                <asp:TextBox ID="tbxAsig1" runat="server" BackColor="Black" BorderStyle="Solid" ForeColor="White" Height="50px" Width="170px" Enabled="False" Font-Bold="True" Font-Names="Arial Narrow" Font-Size="Small" TextMode="MultiLine">Matematicas Fundamentales</asp:TextBox>
+                <asp:TextBox ID="tbxAsig1" runat="server" BackColor="Black" BorderStyle="Solid" ForeColor="White" Height="50px" Width="170px" Enabled="False" Font-Bold="True" Font-Names="Arial Narrow" Font-Size="Small" TextMode="MultiLine"></asp:TextBox>
             </td>
             <td class="auto-style6">
                 <asp:TextBox ID="tbxAsig1Nota1" runat="server" Height="40px" Width="100px" Enabled="False"></asp:TextBox>
@@ -66,12 +66,12 @@
                 <asp:TextBox ID="tbxAsig1Nota3" runat="server" Height="40px" Width="100px" Enabled="False"></asp:TextBox>
             </td>
             <td class="auto-style6">
-                <asp:TextBox ID="TextBox19" runat="server" BackColor="#000066" BorderStyle="Solid" Enabled="False" ForeColor="White" Height="30px"></asp:TextBox>
+                <asp:TextBox ID="tbxDefinitiva1" runat="server" BackColor="#000066" BorderStyle="Solid" ForeColor="White" Height="30px"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td class="auto-style2">
-                <asp:TextBox ID="tbxAsig2" runat="server" BackColor="Black" BorderStyle="Solid" ForeColor="White" Height="50px" Width="170px" Enabled="False" Font-Bold="True" Font-Names="Arial Narrow" Font-Size="Small" TextMode="MultiLine">Electronica</asp:TextBox>
+                <asp:TextBox ID="tbxAsig2" runat="server" BackColor="Black" BorderStyle="Solid" ForeColor="White" Height="50px" Width="170px" Enabled="False" Font-Bold="True" Font-Names="Arial Narrow" Font-Size="Small" TextMode="MultiLine"></asp:TextBox>
             </td>
             <td class="auto-style6">
                 <asp:TextBox ID="tbxAsig2Nota1" runat="server" Height="40px" Width="100px" Enabled="False"></asp:TextBox>
@@ -83,12 +83,12 @@
                 <asp:TextBox ID="tbxAsig2Nota3" runat="server" Height="40px" Width="100px" Enabled="False"></asp:TextBox>
             </td>
             <td class="auto-style6">
-                <asp:TextBox ID="TextBox21" runat="server" BackColor="#000066" BorderStyle="Solid" Enabled="False" ForeColor="White" Height="30px" OnTextChanged="TextBox21_TextChanged"></asp:TextBox>
+                <asp:TextBox ID="tbxDefinitiva2" runat="server" BackColor="#000066" BorderStyle="Solid" Enabled="False" ForeColor="White" Height="30px" OnTextChanged="TextBox21_TextChanged"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td class="auto-style2">
-                <asp:TextBox ID="tbxAsig3" runat="server" BackColor="Black" BorderStyle="Solid" ForeColor="White" Height="50px" Width="170px" Enabled="False" Font-Bold="True" Font-Names="Arial Narrow" Font-Size="Small" TextMode="MultiLine">Campos Electromagneticos</asp:TextBox>
+                <asp:TextBox ID="tbxAsig3" runat="server" BackColor="Black" BorderStyle="Solid" ForeColor="White" Height="50px" Width="170px" Enabled="False" Font-Bold="True" Font-Names="Arial Narrow" Font-Size="Small" TextMode="MultiLine"></asp:TextBox>
             </td>
             <td class="auto-style6">
                 <asp:TextBox ID="tbxAsig3Nota1" runat="server" Height="40px" Width="100px" Enabled="False"></asp:TextBox>
@@ -100,12 +100,12 @@
                 <asp:TextBox ID="tbxAsig3Nota3" runat="server" Height="40px" Width="100px" Enabled="False"></asp:TextBox>
             </td>
             <td class="auto-style6">
-                <asp:TextBox ID="TextBox20" runat="server" BackColor="#000066" BorderStyle="Solid" Enabled="False" ForeColor="White" Height="30px"></asp:TextBox>
+                <asp:TextBox ID="tbxDefinitiva3" runat="server" BackColor="#000066" BorderStyle="Solid" Enabled="False" ForeColor="White" Height="30px"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td class="auto-style2">
-                <asp:TextBox ID="tbxAsig4" runat="server" BackColor="Black" BorderStyle="Solid" Enabled="False" ForeColor="White" Height="50px" Width="170px" Font-Bold="True" Font-Names="Arial Narrow" Font-Size="Small" TextMode="MultiLine">Ingles V</asp:TextBox>
+                <asp:TextBox ID="tbxAsig4" runat="server" BackColor="Black" BorderStyle="Solid" Enabled="False" ForeColor="White" Height="50px" Width="170px" Font-Bold="True" Font-Names="Arial Narrow" Font-Size="Small" TextMode="MultiLine"></asp:TextBox>
             </td>
             <td class="auto-style6">
                 <asp:TextBox ID="tbxAsig4Nota1" runat="server" Height="40px" Width="100px" Enabled="False"></asp:TextBox>
@@ -117,7 +117,7 @@
                 <asp:TextBox ID="tbxAsig4Nota3" runat="server" Height="40px" Width="100px" Enabled="False"></asp:TextBox>
             </td>
             <td class="auto-style6">
-                <asp:TextBox ID="TextBox23" runat="server" BackColor="#000066" BorderStyle="Solid" ForeColor="White" Height="30px"></asp:TextBox>
+                <asp:TextBox ID="tbxDefinitiva4" runat="server" BackColor="#000066" BorderStyle="Solid" ForeColor="White" Height="30px"></asp:TextBox>
             </td>
         </tr>
         <tr>

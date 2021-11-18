@@ -39,5 +39,10 @@ namespace PROYECTOFINAL_2021_03.LOGIN
             }
             
         }
+
+        protected void LinkButton1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("../LOGIN/LoginM.aspx");
+        }
     }
 }

@@ -123,13 +123,13 @@ namespace PROYECTOFINAL_2021_03.MENU_ESTUDIANTE
         protected global::System.Web.UI.WebControls.TextBox tbxAsig1Nota3;
 
         /// <summary>
-        /// Control TextBox19.
+        /// Control tbxDefinitiva1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox19;
+        protected global::System.Web.UI.WebControls.TextBox tbxDefinitiva1;
 
         /// <summary>
         /// Control tbxAsig2.
@@ -168,13 +168,13 @@ namespace PROYECTOFINAL_2021_03.MENU_ESTUDIANTE
         protected global::System.Web.UI.WebControls.TextBox tbxAsig2Nota3;
 
         /// <summary>
-        /// Control TextBox21.
+        /// Control tbxDefinitiva2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox21;
+        protected global::System.Web.UI.WebControls.TextBox tbxDefinitiva2;
 
         /// <summary>
         /// Control tbxAsig3.
@@ -213,13 +213,13 @@ namespace PROYECTOFINAL_2021_03.MENU_ESTUDIANTE
         protected global::System.Web.UI.WebControls.TextBox tbxAsig3Nota3;
 
         /// <summary>
-        /// Control TextBox20.
+        /// Control tbxDefinitiva3.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox20;
+        protected global::System.Web.UI.WebControls.TextBox tbxDefinitiva3;
 
         /// <summary>
         /// Control tbxAsig4.
@@ -258,13 +258,13 @@ namespace PROYECTOFINAL_2021_03.MENU_ESTUDIANTE
         protected global::System.Web.UI.WebControls.TextBox tbxAsig4Nota3;
 
         /// <summary>
-        /// Control TextBox23.
+        /// Control tbxDefinitiva4.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox23;
+        protected global::System.Web.UI.WebControls.TextBox tbxDefinitiva4;
 
         /// <summary>
         /// Control Label20.
