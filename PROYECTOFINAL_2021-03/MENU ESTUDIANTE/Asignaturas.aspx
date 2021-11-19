@@ -145,8 +145,8 @@
                 <asp:TextBox ID="tbxErrorAsignaturas" runat="server" BorderStyle="None" Height="20px" Width="248px"></asp:TextBox>
             </td>
             <td>&nbsp;<asp:Button ID="Button3" runat="server" BackColor="White" BorderColor="White" BorderStyle="Solid" Enabled="False" Font-Bold="True" Font-Names="Arial Narrow" Font-Size="Medium" Text="Promedio Semestral:" />
-&nbsp;<asp:TextBox ID="TextBox22" runat="server" Height="27px"></asp:TextBox>
-&nbsp;<asp:Button ID="Button2" runat="server" BackColor="Black" BorderStyle="Solid" Font-Bold="True" Font-Names="Arial Narrow" Font-Size="Medium" ForeColor="White" Height="34px" Text="Calcular Promedio" Width="255px" ToolTip="Calcular el promedio Semestral" />
+&nbsp;<asp:TextBox ID="tbxPromedioSemestral" runat="server" Enabled="False" Height="27px"></asp:TextBox>
+&nbsp;<asp:Button ID="Button2" runat="server" BackColor="Black" BorderStyle="Solid" Font-Bold="True" Font-Names="Arial Narrow" Font-Size="Medium" ForeColor="White" Height="34px" Text="Calcular Promedio" Width="255px" ToolTip="Calcular el promedio Semestral" OnClick="Button2_Click" />
             </td>
         </tr>
         <tr>

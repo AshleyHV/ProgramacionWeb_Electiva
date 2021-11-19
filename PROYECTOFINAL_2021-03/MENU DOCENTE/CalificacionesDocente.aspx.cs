@@ -13,5 +13,15 @@ namespace PROYECTOFINAL_2021_03.MENU_DOCENTE
         {
 
         }
+
+        protected void LinkButton1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("../PRINCIPAL/Docente.aspx");
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

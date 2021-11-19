@@ -71,7 +71,9 @@
     <Content Include="BOOTSTRAP\js\bootstrap.min.js.map" />
     <Content Include="IMAGENES\6710-ajuste-uao-en-cifras.png" />
     <Content Include="IMAGENES\banner-PRE.jpg" />
+    <Content Include="IMAGENES\Barra.png" />
     <Content Include="IMAGENES\Cafeteria.jpg" />
+    <Content Include="IMAGENES\Calificaciones.jpg" />
     <Content Include="IMAGENES\CampusHD.jpg" />
     <Content Include="IMAGENES\CampusLabs.jpg" />
     <Content Include="IMAGENES\InformacionPersonal.jpg" />

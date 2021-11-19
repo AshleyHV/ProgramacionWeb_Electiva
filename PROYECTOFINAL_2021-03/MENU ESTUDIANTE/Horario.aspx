@@ -13,6 +13,12 @@
         .auto-style5 {
             width: 1200px;
         }
+        .auto-style6 {
+            width: 186px;
+        }
+        .auto-style7 {
+            margin-top: 0px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -63,8 +69,64 @@
             <td>&nbsp;</td>
         </tr>
     </table>
-    <p>
-        &nbsp;</p>
+    <table class="auto-style1">
+        <tr>
+            <td>&nbsp;</td>
+            <td colspan="2">
+                <table class="auto-style1">
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td class="auto-style6">
+                            <asp:Label ID="Label25" runat="server" Text="CODIGO ESTUDIANTIL"></asp:Label>
+                            <br />
+&nbsp;<asp:TextBox ID="tbxCodigoEstuH" runat="server" CssClass="auto-style7" Width="150px"></asp:TextBox>
+                            <br />
+&nbsp;
+                            <br />
+&nbsp;
+                            <asp:Button ID="Button6" runat="server" BackColor="#000066" ForeColor="White" OnClick="Button6_Click" Text="CONSULTAR" Width="150px" />
+                        </td>
+                        <td>&nbsp;</td>
+                    </tr>
+                </table>
+            </td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>
+                <asp:Label ID="Label21" runat="server" Font-Bold="True" Font-Names="Arial" Text="Asignatura"></asp:Label>
+&nbsp;<asp:TextBox ID="tbxasig1h" runat="server" Height="25px"></asp:TextBox>
+                <br />
+                <asp:Label ID="Label26" runat="server" Font-Bold="True" Font-Names="Arial" Text="Dia"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:TextBox ID="tbxDiaAsig1" runat="server" Height="25px"></asp:TextBox>
+            </td>
+            <td>
+                <asp:Label ID="Label30" runat="server" Font-Bold="True" Font-Names="Arial" Text="Asignatura"></asp:Label>
+&nbsp;<asp:TextBox ID="tbxasig2h" runat="server" Height="25px"></asp:TextBox>
+                <br />
+                <asp:Label ID="Label33" runat="server" Font-Bold="True" Font-Names="Arial" Text="Dia"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:TextBox ID="tbxDiaAsig2" runat="server" Height="25px"></asp:TextBox>
+            </td>
+            <td>
+                <asp:Label ID="Label31" runat="server" Font-Bold="True" Font-Names="Arial" Height="25px" Text="Asignatura"></asp:Label>
+&nbsp;<asp:TextBox ID="tbxasig3h" runat="server" Height="25px"></asp:TextBox>
+                <br />
+                <asp:Label ID="Label34" runat="server" Font-Bold="True" Font-Names="Arial" Text="Dia"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:TextBox ID="tbxDiaAsig3" runat="server" Height="25px"></asp:TextBox>
+            </td>
+            <td>
+                <asp:Label ID="Label32" runat="server" Font-Bold="True" Font-Names="Arial" Text="Asignatura"></asp:Label>
+&nbsp;<asp:TextBox ID="tbxasig4h" runat="server" Height="25px"></asp:TextBox>
+                <br />
+                <asp:Label ID="Label35" runat="server" Font-Bold="True" Font-Names="Arial" Text="Dia"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:TextBox ID="tbxDiaAsig4" runat="server" Height="25px"></asp:TextBox>
+            </td>
+        </tr>
+    </table>
     <p>
         &nbsp;</p>
     <p>

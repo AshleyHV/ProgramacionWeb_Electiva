@@ -14,7 +14,6 @@
                         <asp:MenuItem Text="Informacion Personal" Value="Informacion Personal" NavigateUrl="~/MENU DOCENTE/InformacionPersonalDocente.aspx" ToolTip="Informacion Personal Docente"></asp:MenuItem>
                         <asp:MenuItem Text="Calificaciones" Value="Calificaciones" NavigateUrl="~/MENU DOCENTE/CalificacionesDocente.aspx" ToolTip="Calificaciones"></asp:MenuItem>
                         <asp:MenuItem Text="Asignaturas" Value="Asignaturas" NavigateUrl="~/MENU DOCENTE/AsignaturasDocente.aspx" ToolTip="Asignaturas"></asp:MenuItem>
-                        <asp:MenuItem Text="Horario" Value="Horario" NavigateUrl="~/MENU DOCENTE/HorarioDocente.aspx" ToolTip="Horario"></asp:MenuItem>
                     </Items>
                     <StaticHoverStyle BackColor="#990000" ForeColor="White" />
                     <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />

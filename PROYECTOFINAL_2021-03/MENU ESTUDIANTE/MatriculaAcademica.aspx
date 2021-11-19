@@ -4,9 +4,6 @@
         .auto-style5 {
             width: 649px;
         }
-        .auto-style6 {
-            width: 274px;
-        }
         .auto-style7 {
             width: 314px;
         }
@@ -23,6 +20,9 @@
         .auto-style11 {
             width: 254px;
         }
+        .auto-style12 {
+            width: 171px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -30,7 +30,7 @@
         <tr>
             <td>&nbsp;</td>
             <td class="auto-style11">
-                <asp:Label ID="Label8" runat="server" Font-Names="Arial Black" Font-Size="Large" ForeColor="Yellow" Text="MATRICULA ACADEMICA"></asp:Label>
+                <asp:Label ID="Label8" runat="server" Font-Names="Arial Black" Font-Size="Large" ForeColor="#000066" Text="MATRICULA ACADEMICA"></asp:Label>
             </td>
             <td>&nbsp;</td>
         </tr>
@@ -68,16 +68,22 @@
                 <td>
                     <table class="auto-style1">
                         <tr>
-                            <td>&nbsp;</td>
-                            <td class="auto-style6">
-                                &nbsp;&nbsp;
+                            <td class="auto-style12">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <asp:Label ID="Label9" runat="server" Font-Names="Arial Narrow" Text="Codigo Estudiantil"></asp:Label>
                                 <br />
-                                <asp:Label ID="Label6" runat="server" Text="Para Matricular Materias, presionar el boton" Font-Names="Arial Narrow"></asp:Label>
-                                <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <asp:Button ID="Button1" runat="server" Height="41px" Text="Matricular" Width="198px" BackColor="Yellow" BorderColor="#FFFF99" Font-Names="Arial Black" ForeColor="Black" ToolTip="Matricular Materias" />
+&nbsp;<asp:TextBox ID="tbxCodigoEstuMenu" runat="server" Height="20px" Width="150px"></asp:TextBox>
                             </td>
-                            <td>&nbsp;</td>
+                            <td class="auto-style11">
+                                <br />
+&nbsp;&nbsp;&nbsp;&nbsp;
+                            </td>
+                            <td>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <asp:Label ID="Label6" runat="server" Text="Para Matricular Materias" Font-Names="Arial Narrow"></asp:Label>
+                                <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <asp:Button ID="Button1" runat="server" Height="41px" Text="Guardar" Width="198px" BackColor="#000066" BorderColor="#3366FF" Font-Names="Arial Black" ForeColor="White" ToolTip="Visualizar Asignaturas Matriculadas" OnClick="Button1_Click" />
+                            </td>
                         </tr>
                     </table>
                     <table class="auto-style1">

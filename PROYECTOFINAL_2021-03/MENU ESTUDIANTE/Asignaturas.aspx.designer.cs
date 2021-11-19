@@ -303,13 +303,13 @@ namespace PROYECTOFINAL_2021_03.MENU_ESTUDIANTE
         protected global::System.Web.UI.WebControls.Button Button3;
 
         /// <summary>
-        /// Control TextBox22.
+        /// Control tbxPromedioSemestral.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox22;
+        protected global::System.Web.UI.WebControls.TextBox tbxPromedioSemestral;
 
         /// <summary>
         /// Control Button2.

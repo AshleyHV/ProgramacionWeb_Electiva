@@ -105,6 +105,24 @@ namespace PROYECTOFINAL_2021_03.MENU_ESTUDIANTE
         protected global::System.Web.UI.WebControls.Image Image3;
 
         /// <summary>
+        /// Control Label9.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label9;
+
+        /// <summary>
+        /// Control tbxCodigoEstuMenu.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tbxCodigoEstuMenu;
+
+        /// <summary>
         /// Control Label6.
         /// </summary>
         /// <remarks>
